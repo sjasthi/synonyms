@@ -1,0 +1,136 @@
+/*table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	font-weight: bold;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+th {
+	background-color:#5084e5; }
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.sub{
+	
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.sub:hover {background-color: #3e8e41}
+
+.sub:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+	
+#homesub{
+	float: right;
+	background-color: white;
+}
+
+a {
+    color: #171a1d;    
+}
+
+.admin a {
+    color: #282683;    
+}
+
+.hide {
+	display: none;
+}
+
+.blue {
+	background-color: #5084e5;
+}
+ .admin {
+	 margin-left: 3px
+ }
+*/
+input[type=text], select {
+  width: 100px;
+}
+
+ table.ToughTable, table.EasyTable, table.SolutionTable {
+	font-family: arial, sans-serif;
+  border-collapse:collapse;
+  background-color:white;
+  width: 50%;
+  }
+
+  table.EditTable{
+    font-family: arial, sans-serif;
+    border-collapse:collapse;
+    background-color:rgb(214, 40, 40);
+    width: 100%;
+    }
+
+th {
+  background-color:#cbcccf; 
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  height: 40px;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+  height: 40px;
+}
+
+input.clueTextBox{
+background-color: yellow;
+width: 30px;
+height: 30px;
+border: 1px solid green;
+border-radius: 7px;
+}
+
+input.cluePositionTextBox{
+  background-color: rgb(69, 126, 69);
+  width: 30px;
+  height: 30px;
+  border: 1px solid yellow;
+  border-radius: 7px;
+  }
+
+input.MainClueTextBoxLeft,input.MainClueTextBoxPosition,input.MainClueTextBoxRight
+{
+  background-color: rgb(13, 230, 183);
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(73, 70, 214);
+  border-radius: 7px;
+  font-weight: bold;
+  color:red;
+  text-align: center;
+  font-size: 100px;
+}
+
+div.MainClueDiv
+{
+  padding-left:15%;
+  
+}
+
