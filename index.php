@@ -1,4 +1,34 @@
-<!DOCTYPE html>
+<?php
+
+  // set the current page to one of the main buttons
+  $nav_selected = "PLAY";
+
+  // make the left menu buttons visible; options: YES, NO
+  $left_buttons = "NO";
+
+  // set the left menu button selected; options will change based on the main selection
+  $left_selected = "";
+
+  include("./nav.php");
+?>
+
+<html>
+
+<head>
+<style>
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+</style>
+</head>
+
+<body>
+<h2 style = "color: #01B0F1;">Welcome to SILC </h3>
+</body>
+
+</html>
+
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
@@ -15,6 +45,15 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+
+     <style>
+     table.center {
+         margin-left:auto; 
+         margin-right:auto;
+         }
+     </style>
 </head>
 <body>
 
@@ -23,7 +62,8 @@
 	
 	<div class="row">
 		<?php
-			include 'header.php';
+		  //include 'header.php';
+
 		?>
     </div> 
     
