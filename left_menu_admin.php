@@ -44,5 +44,12 @@
   	<br/>Import<br/></div>
   </a>
 
+  <a href = "createNiN.php">
+  	<div <?php if($left_selected == "CREATENIN")
+  	{ echo 'class="menu-left-current-page"'; } ?>>
+  	<img src="./images/Create NiN.png">
+  	<br/>Create NiN<br/></div>
+  </a>
+
 
 </div>

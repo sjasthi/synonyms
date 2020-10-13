@@ -1,4 +1,16 @@
 <?php
+
+  $nav_selected = "ADMIN"; 
+  $left_buttons = "YES"; 
+  $left_selected = "LIST SYNONYMS"; 
+
+  include("./nav.php");
+  global $db;
+
+  ?>
+
+
+<?php
     include 'db_configuration.php';
 	include 'puzzleGenerator.php';
 

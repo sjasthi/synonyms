@@ -78,7 +78,7 @@
 			$generate = false;
 		
         
-    /*
+    
         //These 3 arrays are what is used to create the puzzle
         //intialization:
         $synArray = array();
@@ -141,15 +141,15 @@
 				//echo $wordQuery;
 				//echo '<br />';
 				//Check if a character exists in DB
-				/*
+				
 				if ($wordStmt->num_rows == 0) {
 					$wordExists = false;
 					include 'generate_puzzle_failed.htm';
 					return;
 				}
-				*/
 				
-                /*$numberOfRows = 0;
+				
+                $numberOfRows = 0;
                 if ($wordStmt->num_rows > 0) {
 					while($wordStmt->fetch()){
 						//echo $selectedWord.', ';
@@ -201,7 +201,7 @@
             $puzzleInputStmt->close();
                      
         }
-        */
+        
 	
     ?>
 
@@ -293,7 +293,7 @@
                     }
 
                     
-                    /*
+                    
                     if($right == 'X')
                     {
                         for($i = 0; $i < $position; $i++)
@@ -325,7 +325,7 @@
                             else
                                 $clueTextBoxesRight = $clueTextBoxesRight .'<input class="clueTextBox" type="text" disabled/>'.' ';
                          }
-                    }*/
+                    }
 
                     $clueTextBoxesLeft='';
                     
@@ -438,9 +438,9 @@
 		
 		
     </div>
-	<!--button class='sub' onclick="submitSolution()">Submit Solution</button>
+	<button class='sub' onclick="submitSolution()">Submit Solution</button>
 	<button class='sub' onclick="showSolution()">Show Solution</button>
-	<button class='sub' onclick="changeInput()">Change Input Mode</button-->
+	<button class='sub' onclick="changeInput()">Change Input Mode</button>
 	<a class='sub' id='homesub' href="index.php">Return Home</a>
 	<br />
 	<br />

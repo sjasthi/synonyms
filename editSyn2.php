@@ -1,4 +1,16 @@
 <?php
+
+  $nav_selected = "ADMIN"; 
+  $left_buttons = "YES"; 
+  $left_selected = "LIST SYNONYMS"; 
+
+  include("./nav.php");
+  global $db;
+
+  ?>
+
+
+<?php
 			if($_GET['synonym'] == ''){				
 				header('Location: failed_page.php?x='.'You left the text field blank.');
 				return;
@@ -44,7 +56,7 @@
 
 	
 	<div class="row">
-		<?php include 'header.php';?>
+		<?php //include 'header.php';?>
     </div> 
     
 	<div class="row">

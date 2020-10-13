@@ -51,12 +51,6 @@
               <br/>Admin</li>
             </a>
 
-            <a href="reports.php">
-              <li <?php if($nav_selected == "ABOUT"){ echo 'class="current-page"'; } ?>>
-              <img src="./images/about.png">
-              <br/>About</li>
-            </a>
-
             <a href="login.php">
               <li <?php if($nav_selected == "LOGIN"){ echo 'class="current-page"'; } ?>>
                 <img src="./images/login.png">
