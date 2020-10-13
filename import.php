@@ -1,3 +1,14 @@
+<?php
+
+  $nav_selected = "ADMIN"; 
+  $left_buttons = "YES"; 
+  $left_selected = "IMPORT"; 
+
+  include("./nav.php");
+  global $db;
+
+  ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +28,7 @@
 <div class="container">
 <div class="row">
 		<?php
-			include 'header.php';
+			//include 'header.php';
 		?>
     </div> 
 
@@ -42,9 +53,6 @@ if ($uploadOk == 0) {
 		echo "The file ". basename( $_FILES["file"]["name"]). " has been uploaded.";
 	}
 }
-
-
-
 
 
 //  Include PHPExcel_IOFactory

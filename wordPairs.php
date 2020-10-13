@@ -1,4 +1,15 @@
 <?php
+
+  $nav_selected = "ADMIN"; 
+  $left_buttons = "YES"; 
+  $left_selected = "ADD SYNONYMS"; 
+
+  include("./nav.php");
+  global $db;
+
+  ?>
+
+<?php
     include 'db_configuration.php';
 	include 'puzzleGenerator.php';
 ?>
@@ -32,7 +43,7 @@
 	
 	<div class="row">    
 		<?php
-			include 'header.php';
+			//include 'header.php';
 		?>		
 			
     </div>

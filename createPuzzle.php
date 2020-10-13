@@ -32,7 +32,7 @@
 	<div class="container">
 	<div class="row">    
 		<?php
-			include 'header.php';
+			//include 'header.php';
 		?>		
 			
     </div>

@@ -37,7 +37,7 @@
         
         //header('Location: ./index.php');
         //header('Location: ./wordPair_success.html');
-        include 'add_pair_success.htm';
+        include 'add_pair_success.php';
         //end of this page
         
         

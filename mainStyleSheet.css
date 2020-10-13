@@ -1,0 +1,466 @@
+html{}
+
+body{
+  margin: 0;
+  padding: 0;
+  /*background-color: #F8F8F8;*/
+  font-family: "Helvetica", Arial, sans-serif;
+  text-rendering: geometricPrecision;
+}
+
+a {
+  color: #1B5BA0;
+  text-decoration: none;
+}
+
+#wrap {
+  clear: both;
+  margin: 0 auto;
+  width: 1250px;
+  padding: 4px;
+  background-color: #ffffff;
+  height: auto;
+  display: table;
+  overflow: auto;
+}
+
+#nav{
+    width: 100%;
+    padding: 5px 0 0 0;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    /*border-bottom: 3px solid #1B5BA0;*/
+    height: 90px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+#nav ul a:hover {
+  /*color: #1B5BA0;*/
+}
+
+#nav ul {
+  height: 82px;
+	list-style: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 0;
+  clear: both;
+  display: block;
+  position: relative;
+  color: #000000;
+	}
+	#nav ul li {
+		display: inline;
+    text-align: center;
+    height: 82px;
+    padding: 5px 0 0 0;
+    float:left;
+    /*background-color: #f5f5f5;*/
+    margin-right: 3px;
+    width: 100px;
+    /*border-radius: 15px;*/
+    /*border-bottom: 2px solid #b2b2b2;*/
+	}
+  #nav ul li.current-page {
+    border-bottom: 1px solid #000000;
+	}
+  #nav ul li:hover {
+    margin-right: 3px;
+    /*background-color: #fafafa;*/
+    /*color: #1B5BA0;*/
+    /*border-bottom: 2px solid #b2b2b2;*/
+  }
+  #nav ul li img {
+    max-height: 45px;
+    max-width: 80px;
+    clear: both;
+  }
+  #nav ul li.horozontal-li-logo {
+    color: #000000;
+    background-color: #ffffff;
+    width: 210px;
+    padding: 0px 10px 0 10px;
+    border-bottom: 0;
+    margin-left: 5px;
+    text-transform: none;
+  }
+  #nav ul li.horozontal-li-logo img {
+    max-height: 50px;
+    max-width: 210px;
+    clear: both;
+  }
+  #nav ul li.horozontal-li-search {
+    color: #000000;
+    width: 180px;
+    padding: 0px 0px 0px 10px;
+  }
+  #nav ul li.horozontal-li-search img {
+    max-height: 60px;
+    max-width: 180px;
+    clear: both;
+  }
+  #nav ul li a {
+    width: 120px;
+    height: auto;
+  }
+  #nav ul li ul {
+  	display:none;
+  	position:relative;
+  	top: 0;
+    left: -3px;
+  	background-color: none;
+  	padding:0px;
+    width: 200px;
+    text-align: left;
+    clear:both;
+    font-size: 14px;
+    color: #000000;
+    z-index: 2;
+  }
+  #nav ul li ul li {
+  	float:left;
+  	width: 200px;
+    height: 40px;
+    clear:both;
+    border-radius: 0;
+    border: none;
+    background-color: #e0e0e0;
+    padding: 10px 10px 10px 30px;
+    margin: 0 auto;
+    text-align: left;
+    border-top: 1px solid #b2b2b2;
+    color: #000000;
+  }
+  #nav a {
+    color: #000000;
+    text-decoration: none;
+  }
+  #nav a:hover {
+    /*color: #1B5BA0;*/
+    text-decoration: none;
+  }
+  #nav ul li ul li:first-child {
+    border-top: 3px solid #b2b2b2;
+    /*border-radius: 0 8px 0 0;*/
+  }
+  #nav ul li ul li:first-child:hover {
+    border-top: 3px solid #b2b2b2;
+    /*border-radius: 0 8px 0 0;*/
+  }
+  #nav ul li ul li:last-child {
+    border-radius: 0 0 8px 8px;
+  }
+  #nav ul li ul li:hover {
+  	width: 200px;
+    height: 40px;
+    clear: both;
+    border: none;
+    background-color: #e2e2e2;
+    padding: 10px 10px 10px 30px;
+    margin: 0 auto;
+    text-align: left;
+    border-top: 1px solid #b2b2b2;
+    color: #1B5BA0;
+  }
+  #nav ul li ul li:hover > a{
+    color: #1B5BA0;
+  }
+
+#nav ul li:hover > ul {
+  	display:block;
+  }
+
+#menu-left {
+  width: 120px;
+  padding: 0 0 0 5px;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.menu-left-current-page{
+    width: 120px;
+    background-image: url('images/left_selected.png');
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
+    background-size: 20%;
+}
+#menu-left img {
+  max-height: 50px;
+  max-width: 75px;
+  margin-top: 20px;
+}
+
+#menu-left div {
+  width: 120px;
+  text-align: left;
+}
+#menu-left div:hover {
+  width: 120px;
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  background-size: 20%;
+  background-blend-mode: lighten;
+}
+
+#right-content {
+  max-width: 1100px;
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#container {
+      width: 1250px;
+    }
+
+#import-form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.datatable-style {
+  border: 0;
+}
+
+#table-first-row{
+    background: #889aab;
+}
+
+#capacity-table-first-row{
+    background: #B5E9FF;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+#capacity-table-td {
+  border: 1px solid #414649;
+  padding: 6px;
+}
+
+#capacity-table{
+  border: 0px;
+}
+
+#capacity-calc-bignum {
+  background: #D5E5EF;
+  border-radius: 15px;
+  color: #00AF4A;
+  font-size: 65px;
+  font-weight: bold;
+  padding: 5px 0 5px 0;
+  margin: -15px 0 0 0;
+  text-align: center;
+  text-shadow: -1px 0 #007030,0 1px #007030,1px 0 #007030,0 -1px #007030;
+}
+
+#capacity-button-blue {
+  background: #01B0F1;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  border: 0;
+  padding: 7px 15px 7px 15px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#capacity-button-blue:hover {
+  background: #1CC6FF;
+}
+
+#capacity-button-light-blue {
+  background: #6acee8;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  border: 0;
+  padding: 7px 15px 7px 15px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#capacity-button-light-blue:hover {
+  background: #4fceef;
+}
+
+#capacity-button-blue-submit {
+  background: #0190C4;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  border: 0;
+  padding: 7px 15px 7px 15px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#capacity-button-blue-submit:hover {
+  background: #1CC6FF;
+}
+
+.capacity-text-input {
+  width: 70px;
+  text-align: right;
+  margin: 0 auto;
+  padding: 0px;
+  font-size: 18px;
+}
+
+#capacity-footnote {
+  background: #D5E5EF;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.capacity-table {
+  border: 2px solid #000000;
+  border-collapse: collapse;
+}
+
+#prefName {
+
+}
+
+#prefVal {
+  border: 0;
+  border-radius: 5px;
+  background: #96eaff;
+  padding: 8px 0 8px 0;
+  width: 100px;
+}
+
+#confVal {
+  border: 0;
+  border-radius: 5px;
+  background: #96eaff;
+  padding: 8px 0 8px 0;
+  width: 100px;
+  margin: 0 0 8px 0;
+}
+
+#confVal2 {
+  border: 0;
+  border-radius: 5px;
+  background: #1CC6FF;
+  padding: 8px 0 8px 0;
+  width: 100px;
+  margin: 0 0 8px 0;
+}
+
+.confColumn {
+  text-align: center;
+  width: 175px;
+}
+
+#h3blue {
+  color: #1875bc;
+}
+
+/* Customize the label (the container) */
+.radiocontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+}
+
+/* Hide the browser's default radio button */
+.radiocontainer input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 28px;
+  width: 28px;
+  background-color: #bbb;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #222;
+}
+
+/* On mouse-over, add a grey background color */
+.radiocontainer:hover input ~ .checkmark {
+  background-color: #aaa;
+  background-color: #96eaff;
+}
+
+/* When the radio button is checked, add a blue background */
+.radiocontainer input:checked ~ .checkmark {
+  /*background-color: #2196F3;
+  border: 2px solid #0e6ab2;*/
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radiocontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radiocontainer .checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  /* border-radius: 50%;
+  background: white; */
+  background: url('images/radio.png');
+
+}
+
+#foot{
+    width: 100%;
+    padding: 5px 0 5px 0;
+    margin: 20px 0 0 0;
+    display: block;
+    clear: both;
+    /*border-top: 3px solid #1B5BA0;*/
+    height: 20px;
+    background-color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #1B5BA0;
+}
+#searchInput {
+  background-image: url('./images/Search3.png');
+  background-position: right;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}

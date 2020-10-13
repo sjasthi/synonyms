@@ -1,4 +1,15 @@
 <?php
+
+  $nav_selected = "ADMIN"; 
+  $left_buttons = "YES"; 
+  $left_selected = "CREATENiN"; 
+
+  include("./nav.php");
+  global $db;
+
+  ?>
+
+<?php
     include 'db_configuration.php';
 	include 'puzzleGenerator.php';
 ?>
@@ -32,28 +43,26 @@
 	<div class="container">
 	<div class="row">    
 		<?php
-			include 'header.php';
+			//include 'header.php';
 		?>		
 			
     </div>
     <div class="row">
-
-        
-    
     
     <?php
         //This PHP code block will be to get the data from the database to create the puzzle.
             //It handles both situations where the puzzle already exists or if it doesn't.
+            $id=-1;$title="";
         $inputWord = htmlspecialchars($_GET['title']);
 		$id = htmlspecialchars($_GET['id']);
 		$inputWord = preg_replace('/\x20/', '', $inputWord);
         //echo 'For debugging: <br>';
-        //echo $inputWord . "<br>";
+        echo $inputWord . "<br>";
 		$generate = false;
 		
 		
 		if ($id == 'Generate') {
-			//$query = "SELECT * FROM puzzle WHERE PuzzleWord = '".$inputWord."'";
+			$query = "SELECT * FROM puzzle WHERE PuzzleWord = '".$inputWord."'";
 		} else {
 			$query = "SELECT * FROM puzzle WHERE PuzzleID = '".$id."'";
 			$stmt = $db->prepare($query);
@@ -196,7 +205,7 @@
         <div class="Please enter the following settings">
 			<form>
             <table>
-			<tr><th>Clues</th> <th>Synonyms</th></tr>
+			<tr><th>Clues</th> <th>Description</th> <th>Synonyms</th></tr>
                 <?php
 				$output = '';
 				

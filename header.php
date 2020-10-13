@@ -17,7 +17,7 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="styles/custom_nav.css" type="text/css">
-        <title>A Basic Composer</title>
+        <title>Synonyms</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="./mainStyleSheet.css">
@@ -84,8 +84,8 @@
                 include("./left_menu_admin.php");
             } elseif ($nav_selected == "About") {
                 include("./left_menu_about.php");
-            } elseif ($nav_selected == "Login") {
-                include("./left_menu_login.php");
+            } elseif ($nav_selected == "LOGIN") {
+                include("./login.php");
             } else {
               include("./left_menu.php");
           }

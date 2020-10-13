@@ -1,3 +1,15 @@
+<?php
+
+  $nav_selected = "ADMIN"; 
+  $left_buttons = "YES"; 
+  $left_selected = "LIST SYNONYMS"; 
+
+  include("./nav.php");
+  global $db;
+
+  ?>
+
+
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -17,12 +29,12 @@
 
 <div class="container">	
 
-	<div class="row">    
+    <div class="row">    
 		<?php
-			include 'header.php';
-		?>		
+			//include 'header.php';
+		?>	
 			
-    </div>
+    </div> 
 	
 
     

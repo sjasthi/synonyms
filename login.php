@@ -1,4 +1,13 @@
 <?php
+  $nav_selected = "LOGIN";
+  $left_buttons = "NO";
+  $left_selected = "";
+
+  include("./nav.php");
+  
+ ?>
+
+<?php
 	require('db_configuration.php');
     // If the values are posted, insert them into the database.
 
@@ -17,7 +26,7 @@
    
 <div class="container">
 <?php
-include 'header.php';
+//include 'header.php';
 ?> 
 
 <?php
