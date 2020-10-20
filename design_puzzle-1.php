@@ -1,6 +1,14 @@
 <?php
     include 'db_configuration.php';
-	include 'puzzleGenerator.php';
+    include 'puzzleGenerator.php';
+    
+
+    $nav_selected = "ADMIN"; 
+    $left_buttons = "YES"; 
+    $left_selected = "CREATENIN"; 
+  
+    include("./nav.php");
+
 ?>
 
 <!DOCTYPE html>
@@ -32,7 +40,7 @@
 	<div class="container">
 	<div class="row">    
 		<?php
-			include 'header.php';
+			//include 'header.php';
 		?>		
 			
     </div>

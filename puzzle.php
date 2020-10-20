@@ -52,33 +52,69 @@
     <?php
         //This PHP code block will be to get the data from the database to create the puzzle.
             //It handles both situations where the puzzle already exists or if it doesn't.
-            $id=-1;$title="";
-        $inputWord = htmlspecialchars($_GET['title']);
-		$id = htmlspecialchars($_GET['id']);
-		$inputWord = preg_replace('/\x20/', '', $inputWord);
-        //echo 'For debugging: <br>';
-        echo $inputWord . "<br>";
-		$generate = false;
+        $id=-1;$title="";
+        
+        if(isset($_GET['puzzleId']))
+            $id = htmlspecialchars($_GET['puzzleId']);
+        if(isset($_GET['title']))
+            $title = htmlspecialchars($_GET['title']);
+
+            echo $title . "<br>";
+        
+        		//if title is received as input then first find puzzle_id assosicated with it and then execute another query 
+                if (strlen($title) > 0) 
+                {
+                    $query = "SELECT * FROM puzzle WHERE name = '".$title."' LIMIT 1";
+                    $stmt = $db->prepare($query);
+                    $stmt->execute();
+                    $stmt->store_result();
+                    $stmt->bind_result($id, $word, $synWords, $indexes);
+                    $stmt->fetch();
+                } 
+               
+                    //if puzzle_id is received as input or if calculated from title query above
+                    $query = "SELECT * FROM puzzle WHERE puzzleID = '".$id."'";
+                
+                    $stmt = $db->prepare($query);
+                    $stmt->execute();
+                    $stmt->store_result();
+                    $numOfRows = $stmt->num_rows;
+                    $stmt->bind_result($id, $word, $synWords, $indexes);
+                    $generate = false;
+                
+                
+            
+                //These 3 arrays are what is used to create the puzzle
+                //intialization:
+                $synArray = array();
+                $indexArray = array();
+                $clueArray = array();
+
+
+		// $inputWord = preg_replace('/\x20/', '', $inputWord);
+        // //echo 'For debugging: <br>';
+        // echo $inputWord . "<br>";
+		// $generate = false;
 		
 		
-		if ($id == 'Generate') {
-			$query = "SELECT * FROM puzzle WHERE PuzzleWord = '".$inputWord."'";
-		} else {
-			$query = "SELECT * FROM puzzle WHERE PuzzleID = '".$id."'";
-			$stmt = $db->prepare($query);
-			$stmt->execute();
-			$stmt->store_result();
-			$numOfRows = $stmt->num_rows;
-			$stmt->bind_result($id, $word, $synWords, $indexes);
-			$generate = true;
-		}
+		// if ($id == 'Generate') {
+		// 	$query = "SELECT * FROM puzzle WHERE PuzzleWord = '".$inputWord."'";
+		// } else {
+		// 	$query = "SELECT * FROM puzzle WHERE PuzzleID = '".$id."'";
+		// 	$stmt = $db->prepare($query);
+		// 	$stmt->execute();
+		// 	$stmt->store_result();
+		// 	$numOfRows = $stmt->num_rows;
+		// 	$stmt->bind_result($id, $word, $synWords, $indexes);
+		// 	$generate = true;
+		// }
         
     
-        //These 3 arrays are what is used to create the puzzle
-        //intialization:
-        $synArray = array();
-        $indexArray = array();
-        $clueArray = array();
+        // //These 3 arrays are what is used to create the puzzle
+        // //intialization:
+        // $synArray = array();
+        // $indexArray = array();
+        // $clueArray = array();
     
         //if it exists in DB already.
         if($generate){
@@ -120,7 +156,7 @@
                 //create $input which equals user input string
                 //create $synWords
                 //create $indexes
-            $charArray = utf8Split($inputWord);
+            $charArray = utf8Split($title);
             $arraySize = count($charArray);
 			$wordExists = true;
 			$words = array();
@@ -190,7 +226,7 @@
             //query
             
             $puzzleInputQuery = "INSERT INTO puzzle(PuzzleID, PuzzleWord, PuzzleSynWords, IndexesToReveal) VALUES(DEFAULT, 
-            '".$inputWord."', '".$inputSynString."', '".$inputIndexesString."')";
+            '".$title."', '".$inputSynString."', '".$inputIndexesString."')";
             $puzzleInputStmt = $db->prepare($puzzleInputQuery);
             $puzzleInputStmt->execute();
             $puzzleInputStmt->close();
@@ -209,12 +245,12 @@
                 <?php
 				$output = '';
 				
-                for($i = 0; $i < telugu_strlen($inputWord, 'UTF-8'); $i++){
+                for($i = 0; $i < telugu_strlen($title, 'UTF-8'); $i++){
                     $output .= '<tr><td>'.$clueArray[$i].'</td><td data-answer="'.$synArray[$i].'">'.'<input class="inputs hide blue text-center" type="text" name="single" size="5" maxlength="5" value="'.getSingleMode($synArray[$i], $indexArray[$i]).'" readonly/>'."\n".splitSynonym($synArray[$i], $indexArray[$i]).'</td></tr>';
 					$output .= "\n";
-                    //echo $indexArray[$i];
+                    echo $indexArray[$i];
                 }
-				
+                
 				echo $output;
                 //echo '<tr><td>second word</td><td>first synonym</td></tr>';
                 //echo '<tr><td>third word</td><td>first synonym</td></tr>';
