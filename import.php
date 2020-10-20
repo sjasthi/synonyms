@@ -5,6 +5,9 @@
   $left_selected = "IMPORT"; 
 
   include("./nav.php");
+ 
+
+  //include 'PHPExcel/PHPExcel/IOFactory.php';
   global $db;
 
   ?>
@@ -37,8 +40,8 @@
 <textarea rows="12" cols="150">
 <?php
 
-$target_dir = "uploads/";
-$target_file = $target_dir . basename($_FILES["file"]["name"]);
+ $target_dir = "uploads/";
+$target_file = $target_dir.basename($_FILES["file"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 if($imageFileType != "xls" && $imageFileType != "xlsx") {

@@ -59,7 +59,7 @@
 		//if title is received as input then first find puzzle_id assosicated with it and then execute another query 
         if (strlen($title) > 0) 
         {
-            $query = "SELECT puzzle_id FROM puzzles WHERE name = '".$title."' LIMIT 1";
+            $query = "SELECT puzzleID FROM puzzle WHERE name = '".$title."' LIMIT 1";
             $stmt = $db->prepare($query);
 			$stmt->execute();
 			$stmt->store_result();
@@ -68,7 +68,7 @@
         } 
        
             //if puzzle_id is received as input or if calculated from title query above
-            $query = "SELECT * FROM puzzles WHERE puzzle_id = '".$puzzle_id."'";
+            $query = "SELECT * FROM puzzle WHERE puzzleID = '".$puzzle_id."'";
         
 			$stmt = $db->prepare($query);
 			$stmt->execute();
