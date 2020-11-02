@@ -52,13 +52,11 @@
     <?php
         //This PHP code block will be to get the data from the database to create the puzzle.
             //It handles both situations where the puzzle already exists or if it doesn't.
-        $id=-1;
+        //$id=-1;
         $title="";
         
-        if(isset($_GET['puzzleId']))
-            $id = htmlspecialchars($_GET['puzzleId']);
-        if(isset($_GET['title']))
-            $title = htmlspecialchars($_GET['title']);
+        if(isset($_POST['puzzleWord']))
+            $title = htmlspecialchars($_POST['puzzleWord']);
 
             echo $title . "<br>";
         

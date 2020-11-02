@@ -10,8 +10,8 @@
   ?>
 
 <?php
-    include 'db_configuration.php';
-	include 'puzzleGenerator.php';
+  //include 'db_configuration.php';
+//	include 'puzzleGenerator.php';
 ?>
 
 <!DOCTYPE html>
@@ -46,34 +46,20 @@
       <font class="font">Name Puzzle</font>
     </div>
     <div>
-      <form id ="myform" action="puzzle.php" method="post" onsubmit="process()">
+      <form id ="myform" action="puzzle1.php" method="post">
         <div class="container">
           <div class="inputDiv"><input type="textbox" name="puzzleWord" id="name-textbox" placeholder="Enter your Name to see the Puzzle" onclick="this.placeholder = ''" />
           </div>
           <br>
+          <br>
           <div style="text-align:center">
-            <?PHP
-            echo '<input class="main-buttons" type="submit" name="randomPlay" value="Show me.." />';
-           // if (adminSessionExists()) {
-                //echo '<input class="main-buttons" type="submit" name="iDesign" value="I will design... (Option 1)" />';
-              //echo '<input class="main-buttons" type="submit" name="iDesign" value="I will design..." />';
-           // }
-            ?>
+            <button type="submit" name="submit" class="main-buttons">Create NiN</button>
+        </div>
+          <div style="text-align:center">
           </div>
         </div>
       </form>
     </div>
     </div>
-<script>
-    function process() {
-        var form = document.getElementById('myform');
-        var elements = form.elements;
-        var values = [];
-
-        values.push(encodeURIComponent(elements[0].name) + '=' + encodeURIComponent(elements[0].value));
-
-        form.action += '?' + values.join('&');
-    }
-</script>
 </body>
 </html>

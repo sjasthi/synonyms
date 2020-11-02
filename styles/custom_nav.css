@@ -1,0 +1,155 @@
+ body {
+   font-family: Times New Roman, Times, serif;
+ }
+ 
+ .navbar {
+   display: block;
+   padding-left: 8px;
+   height: auto;
+   border-style: none;
+   font-size: 55px;
+ }
+ 
+ .navbar .container {
+   width: 90%;
+   height: auto;
+   border-radius: 25px;
+   background-color: #92d050;
+   max-width: 1700px;
+ }
+ 
+ .navbar-collapse {
+   border-radius: 25px;
+   background-color: #92d050;
+ }
+ 
+ .navOption {
+   display: inline;
+   margin: 0;
+   padding: 0;
+   width: 120px;
+   height: 130px;
+   border-width: medium;
+   border-style: solid;
+   border-color: white;
+   border-radius: 20px;
+   vertical-align: text-bottom;
+   text-align: center;
+   font-size: 25px;
+ }
+ 
+ .logo {
+   float: left;
+   margin-top: .3em;
+   margin-bottom: .1em;
+   margin-left: .20em;
+   width: auto;
+   height: auto;
+ }
+ /* unvisited link */
+ 
+ li a button {
+   color: black;
+ }
+ 
+ li a button:hover {
+   font-size: .6em;
+   text-shadow: 1px 1px grey;
+ }
+ 
+ li a:link {
+   color: black;
+   text-decoration: none;
+ }
+ /* visited link */
+ 
+ li a:visited {
+   color: black;
+ }
+ /* mouse over link */
+ 
+ li a:hover {
+   color: black;
+ }
+ /* selected link */
+ 
+ li a:active {
+   color: black;
+ }
+ 
+ .nav-font {
+   vertical-align: bottom;
+   font-size: 1em;
+ }
+ 
+ .name-wrapper {
+   display: inline-block;
+   padding-top: .6em;
+   padding-left: .4em;
+ }
+ 
+ #admin {
+   background-color: #2bb0dc;
+ }
+ 
+ #list {
+   background-color: #EEE657;
+ }
+ 
+ #addpuzzle {
+   background-color: #81E2E6;
+ }
+ 
+ #addword {
+   background-color: lightseagreen;
+ }
+ 
+ #login {
+   background-color: #2bb0dc;
+ }
+ 
+ .navbar-nav {
+   display: block;
+   float: right;
+ }
+ 
+ .starter-template {
+   padding: 40px 15px;
+   text-align: center;
+ }
+ .content{
+     width:900px;
+     margin:0 auto;
+ }
+ #searchid
+ {
+     width:500px;
+     border:solid 1px #000;
+     padding:10px;
+     font-size:14px;
+ }
+ #result
+ {
+     position:absolute;
+     width:600px;
+     padding:10px;
+     display:none;
+     margin-top:-1px;
+     border-top:0px;
+     overflow:hidden;
+     border:1px #CCC solid;
+     background-color: white;
+ }
+ .show
+ {
+     padding:10px;
+     border-bottom:1px #999 dashed;
+     font-size:15px;
+     height:50px;
+ }
+ .show:hover
+ {
+     background:#4c66a4;
+     color:#FFF;
+     cursor:pointer;
+ }
