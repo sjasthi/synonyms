@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main_style.css" type="text/css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/custom_nav.css" type="text/css">
+    <title>Play Synonyms</title>
+</head>
+
+<body>
+
+
+    <!DOCTYPE html>
+
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/main_style.css" type="text/css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="styles/custom_nav.css" type="text/css">
+        <title>Synonyms</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./mainStyleSheet.css">
+    </head>
+
+    <body class="body_background">
+        <div id="wrap">
+            <div id="nav">
+                <ul>
+                    <a href="index.php">
+                        <li class="horozontal-li-logo">
+                            <img src="./images/silcHeader.png">
+                            <br/>Name in Synonyms</li>
+                    </a>
+
+                    <a href="index.php">
+                        <li>
+                            <img src="./images/play.png">
+                            <br/>Play</li>
+                    </a>
+
+                    <a href="list.php">
+                        <li>
+                            <img src="./images/submit puzzle.png">
+                            <br/>Submit Puzzle</li>
+                    </a>
+
+                    <a href="admin.php">
+                        <li class="current-page">
+                            <img src="./images/admin.png">
+                            <br/>Admin</li>
+                    </a>
+
+                    <a href="login.php">
+                        <li>
+                            <img src="./images/login.png">
+                            <br/>Login</li>
+                    </a>
+
+                    <a href="about.php">
+                        <li>
+                            <img src="./images/about.png">
+                            <br/>About</li>
+                    </a>
+
+                </ul>
+                <br />
+            </div>
+
+
+            <table style="width:1250px">
+                <tr>
+
+                    <td style="width: 120px;" valign="top">
+
+                        <div id="menu-left">
+
+                            <a href="wordPairs.php">
+                                <div>
+                                    <img src="./images/add synonyms.png">
+                                    <br/>Add Synonyms
+                                    <br/>
+                                </div>
+                            </a>
+
+
+                            <a href="list_synonyms.php">
+                                <div>
+                                    <img src="./images/list synonyms.png">
+                                    <br/>List Synonyms
+                                    <br/>
+                                </div>
+                            </a>
+
+                            <a href="preferences.php">
+                                <div>
+                                    <img src="./images/preferences.png">
+                                    <br/>Preferences
+                                    <br/>
+                                </div>
+                            </a>
+
+                            <a href="names.php">
+                                <div>
+                                    <img src="./images/names.png">
+                                    <br/>Names
+                                    <br/>
+                                </div>
+                            </a>
+
+                            <a href="export.php">
+                                <div>
+                                    <img src="./images/export.png">
+                                    <br/>Export
+                                    <br/>
+                                </div>
+                            </a>
+
+                            <a href="import.php">
+                                <div>
+                                    <img src="./images/import.png">
+                                    <br/>Import
+                                    <br/>
+                                </div>
+                            </a>
+
+                            <a href="createNiN.php">
+                                <div>
+                                    <img src="./images/Create NiN.png">
+                                    <br/>Create NiN
+                                    <br/>
+                                </div>
+                            </a>
+
+
+                        </div>
+                    </td>
+                    <td style="width: 1100px;" valign="top">
+
+                        
+                        <div class="container">
+                            <h1 style="color:red;">"boy"</h1>
+                            <table class="table table-condensed main-tables" id="puzzle_table">
+                                <thead>
+                                    <tr>
+                                        <th>Clue</th>
+                                        <th>Synonym</th>
+                                        <th>Word</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td align='center' style='vertical-align: middle;'>1/3</td>
+                                        <td align='center' style='vertical-align: middle;'>gridlock</td>
+                                        <td>
+                                        <input class="altPuzzleInput active" type="text" maxLength="7" value="b" style="display:none;" readonly/>
+                                        <input class="altPuzzleInput" type="text" value="" style="display:none;" />
+                                        <input class="puzzleInput word_char active" type="text" maxLength="7" value="b" style="display:inline" readonly/>
+                                        <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                                        <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                                        <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                                        <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                                        <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                                        </td>
+                        </div>
+                        <tr>
+                            <td align='center' style='vertical-align: middle;'>2/3</td>
+                            <td align='center' style='vertical-align: middle;'>diligent</td>
+                            <input class="altPuzzleInput active" type="text" maxLength="7" value="o" style="display:none;" readonly/>
+                            <input class="altPuzzleInput" type="text" value="" style="display:none;" />
+                            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                            <input class="puzzleInput word_char active" type="text" maxLength="7" value="o" style="display:inline" readonly/>
+                            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+                            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+        </div>
+        <tr>
+            <td align='center' style='vertical-align: middle;'>3/3</td>
+            <td align='center' style='vertical-align: middle;'>enigma</td>
+            <input class="altPuzzleInput active" type="text" maxLength="7" value="y" style="display:none;" readonly/>
+            <input class="altPuzzleInput" type="text" value="" style="display:none;" />
+            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+            <input class="puzzleInput word_char active" type="text" maxLength="7" value="y" style="display:inline" readonly/>
+            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+            <input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline" />
+            </div>
+            </div>
+            </tbody>
+            </table>
+            <img id="success_photo" class="success" src="pic/thumbs_up.png" alt="Success!" style="display:none">
+            </div>
+            <button class='sub' onclick="submitSolution()">Submit Solution</button>
+            <button class='sub' onclick="showSolution()">Show Solution</button>
+            <button class='sub' onclick="changeInput()">Change Input Mode</button>
+            <a class='sub' id='homesub' href="index.php">Return Home</a>
+            <br />
+            <br />
+    </body>
+
+    </html>
