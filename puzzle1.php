@@ -18,6 +18,15 @@
 <body>
 
 <?php
+require_once('myFunctions.php');
+require_once('language_processor_functions.php');
+// require_once('common_sql_functions.php');
+// require_once('utility_functions.php');
+// session_start();
+// require_once('session_validation.php');
+?>
+
+<?php
 
   $nav_selected = "ADMIN"; 
   $left_buttons = "YES"; 
@@ -30,21 +39,25 @@
 
 <?php
     include 'db_configuration.php';
-	include 'puzzleGenerator.php';
+	//include 'puzzleGenerator.php';
 ?>
 
 <?php 
 
 if(isset($_POST['puzzleWord']))
 
-            $word = htmlspecialchars($_POST['puzzleWord']);
+            //$word = htmlspecialchars($_POST['puzzleWord']);
+            $word = validate_input($_POST['puzzleWord']);
+            //$parsedWord = getWordChars($word);
+
 
             //echo "Input Word:", $word . "<br>";
 
             $htmlTable = '<div class="container"><h1 style="color:red;">"' . $word . '"</h1><table class="table table-condensed main-tables" id="puzzle_table" ><thead><tr><th>Clue</th><th>Synonym</th><th>Word</th></tr></thead><tbody>';
             
             //echo $htmlTable;
-            $wordCharacters = str_split($word);
+           // $wordCharacters = str_split($word);
+            $wordCharacters = getWordChars($word);
             $wordCharacterSize = count($wordCharacters);
             $showworsCharacters = implode(',', $wordCharacters);
           

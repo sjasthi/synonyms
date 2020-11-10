@@ -100,7 +100,9 @@ function parseToCharacter($logical_char) {
 	return json_decode('"'.$telugu_char.'"');
 }
 
+
 function explode_telugu($to_explode) {
+	// POS //
 	$pos=0;
 	$e_pos=0;
 	$exploded = array();
@@ -111,7 +113,11 @@ function explode_telugu($to_explode) {
 		}
 		if(strcmp($to_explode[$pos], "\\") == 0) { // if the the character in question is a slash...
 			if(strcmp($to_explode[$pos + 1], "u") == 0) { // ...followed by a u...
-				$char = 0 + ("0x" . substr($to_explode, $pos + 2, 4)); // convert to a number
+
+				// PHP7 no longer convert 0x strings to numbers automatically
+				//$char = 0 + ("0x" . substr($to_explode, $pos + 2, 4)); // worked in old version of php
+				$char = intval(substr($to_explode, $pos + 2, 4), 16); // convert to a number
+				
 				if(isTelugu($char)) {
 					// if it matches, add it as a character, bump the counter up by six, and continue
 					$exploded[$e_pos++] = $char;
@@ -124,6 +130,7 @@ function explode_telugu($to_explode) {
 	}
 	return $exploded;
 }
+
 
 function isConsonant($ch) {
 	return ( $ch >= 0x0c15 && $ch <= 0x0c39 );
