@@ -55,8 +55,14 @@ if(isset($_POST['puzzleWord']))
             //echo $htmlTable;
            // $wordCharacters = str_split($word);
             $wordCharacters = getWordChars($word);
+          
+            //character is also ok
             $wordCharacterSize = count($wordCharacters);
+            echo $wordCharacterSize;
+
+            // imploding word characters is giving the right of characters
             $showworsCharacters = implode(',', $wordCharacters);
+            echo $showworsCharacters;
           
             //echo "It contains ", $wordCharacterSize, " characters: ";
             //echo $showworsCharacters . "<br>";
@@ -73,14 +79,15 @@ if(isset($_POST['puzzleWord']))
               $stmt->bind_result($wordsWithChar);
               $arrayWord = array();
 
-              //echo "Words containing the letter ", $char, " in our database are:" ."<br>";
+              echo "Words containing the letter ", $char, " in our database are:" ."<br>";
+              
 
 
               while($stmt->fetch()){
                 array_push($arrayWord, $wordsWithChar);
-               // array_push($arrayClue, $wordsWithDClueID);
-                //echo  $wordsWithChar. "<br>";
-                //echo $wordsWithDClueID. "<br>";
+               array_push($arrayClue, $wordsWithDClueID);
+                echo  $wordsWithChar. "<br>";
+                echo $wordsWithDClueID. "<br>";
               }
 
            // echo "Out of these, the word randomly selected is: ";
