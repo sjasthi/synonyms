@@ -1,7 +1,8 @@
 <?php
 	//Gets clues for puzzle.php
-	include("word_processor.php");
-	
+	//include("word_processor.php");
+    require_once('language_processor_functions.php');
+    
 	function getSingleMode($synonym, $index) {	
 		$answer = '';
 		$language = 'telugu';
