@@ -72,7 +72,7 @@ table.center {
     <div class="panel panel-primary" style="margin-top: 30px">
         <div class="Please enter the following settings">
 
-            <form class="contact" action="puzzle.php" target="" method="get" role="form">
+            <form class="contact" action="puzzle1.php" target="" method="get" role="form">
                 <div class="row">
                     <div class="col-lg-12" style="margin-top: 20px" align="center">						
 							
