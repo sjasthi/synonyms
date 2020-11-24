@@ -2,7 +2,7 @@
 require("word_processor.php");
 
 
-if(count($_POST["to_parse"] > 0)) {
+if($_POST["to_parse"]) {
 	analyze_essay($_POST["to_parse"], $_POST["to_language"]);
 }
 
@@ -14,11 +14,12 @@ function analyze_essay($essay, $language) {
 	$wordbuff = "";
 	$tot_lines = 0;
 	$tot_letters = 0;
-	$tot_str = 0;
-	$tot_wt = 0;
+	$tot_str = 0; // total strength
+	$tot_wt = 0; // total weight
 	$newline = false;
 
 	for($i=0; $i < strlen($essay); $i++) {
+		// Return the ASCII value of...
 		$chr = ord($essay[$i])	;
 
 		if($chr == 10) { // is the character a newline?
@@ -30,12 +31,14 @@ function analyze_essay($essay, $language) {
 		else {
 			$newline = false;
 		}//end else
+
+
 		if( is_word_separator($chr) ) {
 			if(strlen($wordbuff) > 0) {
 				$parsed[] = new wordProcessor($wordbuff, $language);
 				$wordbuff = "";
-			}//end if
-		}//end if
+			}
+		}
 		else if( !is_ignored($chr) ) {
 			$wordbuff .= $essay[$i];
 		}
@@ -46,17 +49,21 @@ function analyze_essay($essay, $language) {
 		$parsed[] = new wordProcessor($wordbuff, $language);
 		$tot_lines++;
 	}
+
 	$tot_words = count($parsed);
 	if( $tot_words == 0 ) {
 		echo "0|0|0|0|0|0|0";
 		return;
 	}
+
+	
 	foreach($parsed as $word) {
 		$tot_letters += $word->getLength();
 		$tot_str += $word->getWordStrength($language);
 		$tot_wt += $word->getWordWeight($language);
 	}
 
+	// Sort the elements of the array using a user-defined comparison function:
 	usort($parsed, "len_lex_sort");
 	$analysis = "";
 	$current = $parsed[0];
@@ -84,6 +91,9 @@ function analyze_essay($essay, $language) {
 }//end analyze_essay
 
 // ignoring quotes, both single and double and unprintable characters
+// 39 = '
+// 34 = "
+// 32 = space
 function is_ignored($chr) {
 	return ($chr == 39) || ($chr == 34) || ($chr < 32);
 }
@@ -92,6 +102,10 @@ function is_ignored($chr) {
 // NOTE! this does not account for punctuation that resides as ascii values between 128 and 255
 // since the punctuation in that range is spanish, this is not a fatal flaw for this project
 function is_word_separator($chr) {
+	// greater than -1 less than 48
+	// greater than 57 less than 64
+	// greater than 90 less than 97
+	// greater than 122 less than 128
 	return ($chr > -1 && $chr < 48) || ($chr > 57 && $chr < 64) || ($chr > 90 && $chr < 97) || ($chr > 122 && $chr < 128);
 }
 

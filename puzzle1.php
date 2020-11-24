@@ -77,22 +77,47 @@ if(isset($_POST['puzzleWord']))
 
 
               while($stmt->fetch()){
-                array_push($arrayWord, $wordsWithChar);
-               // array_push($arrayClue, $wordsWithDClueID);
-                //echo  $wordsWithChar. "<br>";
-                //echo $wordsWithDClueID. "<br>";
+
+                $db_word_chars = getWordChars($wordsWithChar);
+                if (in_array($char, $db_word_chars)){
+                    array_push($arrayWord, $wordsWithChar);
+                    //echo  $wordsWithChar. "<br>";
+                }
+                //echo $arrayWord;
               }
 
            // echo "Out of these, the word randomly selected is: ";
-
-            $index = array_rand($arrayWord);
-            //$temp = $arrayWord[$index];
-            //$tempselectedWord = $temp;
-            $tempselectedWord = $arrayWord[$index];
             
-            //$usedtempSelectedWord = array();
-            //array_push($usedtempSelectedWord, $tempselectedWord);
-            //echo $tempselectedWord. "<br>";
+            //$temp = $arrayWord;
+            $arrayWordLen = count($arrayWord);
+            $usedWords = array();
+
+            while (true) {
+                //echo 'Rows count: ' . $numRows . ' <br>';
+                if ($arrayWordLen < 1) {
+                    break;
+                } elseif ($arrayWordLen > 1) {
+                    $random = rand(0, $arrayWordLen - 1);
+                } elseif ($arrayWordLen === 1) {
+                    $random = 0;
+                }
+                //echo $random;
+                try {
+                    $tempWord = $arrayWord[$random];
+                    if (!in_array($tempWord, $usedWords, true)) {
+                        $tempselectedWord = $arrayWord[$random];
+                        //unset($arraWord[$random]);
+                        break;
+                    } else {
+                        $arrayWordLen--;
+                        array_splice($arrayWord, $random, 1);
+                    }
+                } catch (Exception $e) {
+                    // try again
+                    $arrayWordLen--;
+                }
+            }
+
             $stmt->close();
 
 
@@ -104,6 +129,23 @@ if(isset($_POST['puzzleWord']))
             $stmt->fetch();
               //echo  $clueID. "<br>";
             $stmt->close();
+
+
+            $masterWordQuerySet = "SELECT SynonymWord FROM synonyms WHERE ClueID = SynID"; 
+            $stmt = $db->prepare($masterWordQuerySet);
+            $stmt->execute();
+            $stmt->store_result();
+            //$numOfRows = $stmt->num_rows;
+            $stmt->bind_result($masterWordSynonyms);
+            $stmt->fetch();
+            $allmasterwords = array();
+
+            while($stmt->fetch()){
+
+                array_push($allmasterwords, $masterWordSynonyms);
+
+                //echo $masterWordSynonyms. "<br>";
+             }
 
 
             $masterWordQuery = "SELECT SynonymWord FROM synonyms WHERE SynID = '$clueID' AND ClueID = '$clueID'"; 
@@ -119,14 +161,20 @@ if(isset($_POST['puzzleWord']))
              *  the word has a master word.
              */
             if ($masterWord != $tempselectedWord){
-                unset($arrayWord[$index]);
+                //unset($arrayWord[$index]);
+
+                array_push($usedWords, $tempselectedWord);
+
+                $tempSelectedWordchars = getWordChars($tempselectedWord);
+                $pos = array_search($char, $tempSelectedWordchars) + 1;
+                $len = count($tempSelectedWordchars);
                 $newpos = $pos -1;
-                $len = strlen($tempselectedWord);
 
                 // storing value for the clue;
 
-              $htmlTable .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $wordCharacterSize . "</td>";
-              $htmlTableResult .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $wordCharacterSize . "</td>";
+
+              $htmlTable .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
+              $htmlTableResult .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
 
               //master word represents the synonym in the table
               $htmlTable .= "<td align='center' style='vertical-align: middle;'>" . $masterWord. "</td>";
@@ -143,9 +191,9 @@ if(isset($_POST['puzzleWord']))
              // $htmlTable .= '<input class="altPuzzleInput active" type="text" maxLength="7" value="' . $char . '" style="display:none;" readonly/>';
                       $flag = false;
                       for ($j = 0; $j < $len; $j++) {
-                        $htmlTableResult .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' . $char . '" style="display:inline" readonly/>';
+                        $htmlTableResult .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' .$tempSelectedWordchars[$j] . '" style="display:inline" readonly/>';
                           if (($j === $newpos) && !$flag) {
-                              $htmlTable .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' . $char . '" style="display:inline" readonly/>';
+                              $htmlTable .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' . $tempSelectedWordchars[$j] . '" style="display:inline" readonly/>';
 
                               $flag = true;
                           } else {
@@ -157,20 +205,45 @@ if(isset($_POST['puzzleWord']))
                       $htmlTable .='</td>';
                       $htmlTableResult .='</td>';
                       
-                //echo " The Output for character ", $char, " is:". "<br>";
-                //echo $pos, "/", $wordCharacterSize, ",", $masterWord, "," ,$tempselectedWord. "<br>";
-                //echo " Which will be displaying as:". "<br>";
-                //echo $pos, "/", $wordCharacterSize, ",", $masterWord, "," ,$tempselectedWord. "<br>";
 
             }
             else{
                 //echo $tempselectedWord, " Does not have a master word so, the new selected word is:";
-      
-                $index = array_rand($arrayWord);
-                $tempselectedWord = $arrayWord[$index];
-                unset($arrayWord[$index]);
+             
+
+                while (true) {
+                    //echo 'Rows count: ' . $numRows . ' <br>';
+                    if ($arrayWordLen < 1) {
+                        break;
+                    } elseif ($arrayWordLen > 1) {
+                        $random = rand(0, $arrayWordLen - 1);
+                    } elseif ($arrayWordLen === 1) {
+                        $random = 0;
+                    }
+                    //echo $random;
+                    try {
+                        $tempWord = $arrayWord[$random];
+                        if (!in_array($tempWord, $usedWords, true)) {
+                            $tempselectedWord = $arrayWord[$random];
+                            //unset($arrayWord[$random]);
+                            break;
+                        } else {
+                            $arrayWordLen--;
+                            array_splice($arrayWord, $random, 1);
+                        }
+                    } catch (Exception $e) {
+                        // try again
+                        $arrayWordLen--;
+                    }
+                    array_push($usedWords, $tempselectedWord);
+                }
+              
+                array_push($usedWords, $tempselectedWord);
+                
+                $tempSelectedWordchars = getWordChars($tempselectedWord);
+                $pos = array_search($char, $tempSelectedWordchars) + 1;
+                $len = count($tempSelectedWordchars);
                 $newpos = $pos -1;
-                $len = strlen($tempselectedWord);
 
                 //echo  $tempselectedWord. "<br>";
 
@@ -198,8 +271,8 @@ if(isset($_POST['puzzleWord']))
 
               //echo  $tempselectedWord, " has a master word called ", "$masterWord". "<br>";
               //echo " The Output for character ", $char, " is:". "<br>";
-              $htmlTable .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $wordCharacterSize . "</td>";
-              $htmlTableResult .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $wordCharacterSize . "</td>";
+              $htmlTable .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
+              $htmlTableResult .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
           
               $htmlTable .= "<td align='center' style='vertical-align: middle;'>" . $masterWord. "</td>";
               $htmlTable .= "<td style='vertical-align: middle;'>";
@@ -209,9 +282,9 @@ if(isset($_POST['puzzleWord']))
               //$htmlTable .= '< input class="altPuzzleInput active" type="text" maxLength="7" value="' . $char . '" style="display:none;" readonly/>';
                       $flag = false;
                       for ($j = 0; $j < $len; $j++) {
-                        $htmlTableResult .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' . $char . '" style="display:inline" readonly/>';
+                        $htmlTableResult .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' . $tempSelectedWordchars[$j] . '" style="display:inline" readonly/>';
                           if (($j === $newpos) && !$flag) {
-                              $htmlTable .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' . $char . '" style="display:inline" readonly/>';
+                              $htmlTable .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' . $tempSelectedWordchars[$j] . '" style="display:inline" readonly/>';
                               $flag = true;
                           } else {
                               $htmlTable .= '<input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline"/>';
@@ -227,6 +300,8 @@ if(isset($_POST['puzzleWord']))
 
             }  
 
+            array_push($usedWords, $masterWord);
+
        }
 
           $htmlTable .= "</div>";
@@ -236,6 +311,7 @@ if(isset($_POST['puzzleWord']))
           $htmlTableResult .= '</tbody></table><img id="success_photo" class="success" src="pic/thumbs_up.png" alt="Success!" style="display:none"></div>';
 
           echo $htmlTable;
+          //echo $masterWord;
          //echo $htmlTableResult;
 
 createTableFooter();

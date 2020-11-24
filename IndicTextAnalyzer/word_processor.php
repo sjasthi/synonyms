@@ -36,7 +36,7 @@ class wordProcessor {
 	protected $code_points = array();
 
 	// constructor
-	function wordProcessor($word, $language) {
+	function __construct($word, $language) {
 		if(is_string($word)) return $this->setWord($word, $language);
 	}
 
@@ -370,5 +370,12 @@ class wordProcessor {
 
 		return $weight;
 	}
+
+	// Level is always subjective and requires user/admin intervention
+	// For now, Level = Strength
+	function getWordLevel($language) {
+		return $this->getWordStrength($language);
+	}
+
 }
 ?>

@@ -35,8 +35,6 @@
 		?>	
 			
     </div> 
-	
-
     
     <div class="row">        
     
@@ -54,7 +52,8 @@
 	
 			echo "<table id='listTable' class='datatable table table-striped table-bordered' >\n";
 			echo "<thead>\n";
-			echo "<tr>\n";				
+			echo "<tr>\n";	
+			echo "\t<th>MasterWord_ID</th>\n";			
 			echo "\t<th>MasterWord</th>\n";
             echo "\t<th>Synonym_Word</th>\n";
             echo "\t<th>Actions</th>\n";
@@ -64,6 +63,8 @@
 		while($stmt->fetch()) {				
 					
 					echo "<tr>\n";
+						
+					    echo "\t<td>".$SynID."</td>\n";
                         echo "\t<td>".$SynonymWord."</td>\n";	
 						
 						//call function of puzzleGenerator to get list of child words from ClueID
@@ -77,10 +78,8 @@
 						
 						echo "\t<td>";
 						
-						
 						echo "<input onclick='editSynonym(this)' type='image' src='edit.jpg' name='id' value='".$SynonymWord."' style='width: 22px;'>     ";
 							
-						
 						echo "<input onclick='deleteSynonym(this)' type='image' name='id' value='".$SynID."'src='delete.jpg' style='width: 22px;'>";
 												}
 						}
@@ -110,7 +109,6 @@
     	});
 	</script>
 	
-	
 	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<!--script src="js/bootstrap.min.js"></script-->
@@ -125,9 +123,6 @@
 				
 			}
 		}
-		
-		
-		
 		
 		function editSynonym(synonym) {	
 			//alert("from puzzle");
