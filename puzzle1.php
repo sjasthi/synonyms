@@ -19,7 +19,6 @@
 
 <?php
 require_once('myFunctions.php');
-//require_once('word_processor.php');
 require_once('language_processor_functions.php');
 
 ?>
