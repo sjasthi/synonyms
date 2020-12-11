@@ -1,3 +1,12 @@
+<?php
+  $nav_selected = "LOGIN";
+  $left_buttons = "NO";
+  $left_selected = "";
+
+  include("./nav.php");
+  
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
