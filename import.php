@@ -7,7 +7,7 @@
   include("./nav.php");
  
 
-  //include 'PHPExcel/PHPExcel/IOFactory.php';
+  include 'PHPExcel/PHPExcel/IOFactory.php';
   global $db;
 
   ?>
@@ -59,9 +59,9 @@ if ($uploadOk == 0) {
 
 
 //  Include PHPExcel_IOFactory
-include 'PHPExcel/PHPExcel/IOFactory.php';
+//include 'PHPExcel/PHPExcel/IOFactory.php';
 
-$inputFileName = $target_dir . basename($_FILES["file"]["name"]);
+$inputFileName = $target_dir.basename($_FILES["file"]["name"]);
 
 //  Read your Excel workbook
 try {

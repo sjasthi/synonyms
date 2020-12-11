@@ -1,0 +1,1564 @@
+[06-Dec-2020 00:38:14 Europe/Berlin] The input word is : boy
+[06-Dec-2020 00:38:14 Europe/Berlin] It contains 3 characters
+[06-Dec-2020 00:38:14 Europe/Berlin]  This is the trimmed collection for b
+[06-Dec-2020 00:38:14 Europe/Berlin] battle,birth,baby,tangible,touchable
+[06-Dec-2020 00:38:14 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:38:14 Europe/Berlin] battle
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\synonyms\puzzle3.php on line 156
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Notice:  Undefined variable: masterWord in C:\xampp\htdocs\synonyms\puzzle3.php on line 176
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Notice:  Undefined variable: masterWord in C:\xampp\htdocs\synonyms\puzzle3.php on line 205
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Notice:  Undefined variable: masterWord in C:\xampp\htdocs\synonyms\puzzle3.php on line 207
+[06-Dec-2020 00:38:14 Europe/Berlin]  This is the trimmed collection for o
+[06-Dec-2020 00:38:14 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[06-Dec-2020 00:38:14 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:38:14 Europe/Berlin] battle,battle,crisis,striving,carnage,compose
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\synonyms\puzzle3.php on line 156
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Notice:  Undefined variable: masterWord in C:\xampp\htdocs\synonyms\puzzle3.php on line 176
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Notice:  Undefined variable: masterWord in C:\xampp\htdocs\synonyms\puzzle3.php on line 205
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Notice:  Undefined variable: masterWord in C:\xampp\htdocs\synonyms\puzzle3.php on line 207
+[06-Dec-2020 00:38:14 Europe/Berlin]  This is the trimmed collection for y
+[06-Dec-2020 00:38:14 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[06-Dec-2020 00:38:14 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:38:14 Europe/Berlin] battle,battle,crisis,striving,carnage,compose,compose,mystery
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\synonyms\puzzle3.php on line 156
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Notice:  Undefined variable: masterWord in C:\xampp\htdocs\synonyms\puzzle3.php on line 176
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Notice:  Undefined variable: masterWord in C:\xampp\htdocs\synonyms\puzzle3.php on line 205
+[06-Dec-2020 00:38:14 Europe/Berlin] PHP Notice:  Undefined variable: masterWord in C:\xampp\htdocs\synonyms\puzzle3.php on line 207
+[06-Dec-2020 00:42:47 Europe/Berlin] The input word is : boy
+[06-Dec-2020 00:42:47 Europe/Berlin] It contains 3 characters
+[06-Dec-2020 00:42:47 Europe/Berlin]  This is the trimmed collection for b
+[06-Dec-2020 00:42:47 Europe/Berlin] battle,birth,baby,tangible,touchable
+[06-Dec-2020 00:42:47 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:42:47 Europe/Berlin] battle
+[06-Dec-2020 00:42:47 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\synonyms\puzzle3.php on line 156
+[06-Dec-2020 00:42:47 Europe/Berlin]  This is the trimmed collection for o
+[06-Dec-2020 00:42:47 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[06-Dec-2020 00:42:47 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:42:47 Europe/Berlin] battle,compose
+[06-Dec-2020 00:42:47 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\synonyms\puzzle3.php on line 156
+[06-Dec-2020 00:42:47 Europe/Berlin]  This is the trimmed collection for y
+[06-Dec-2020 00:42:47 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[06-Dec-2020 00:42:47 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:42:47 Europe/Berlin] battle,compose,mystery
+[06-Dec-2020 00:42:47 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\synonyms\puzzle3.php on line 156
+[06-Dec-2020 00:43:33 Europe/Berlin] The input word is : boy
+[06-Dec-2020 00:43:33 Europe/Berlin] It contains 3 characters
+[06-Dec-2020 00:43:33 Europe/Berlin]  This is the trimmed collection for b
+[06-Dec-2020 00:43:33 Europe/Berlin] battle,birth,baby,tangible,touchable
+[06-Dec-2020 00:43:33 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:43:33 Europe/Berlin] battle
+[06-Dec-2020 00:43:33 Europe/Berlin]  This is the trimmed collection for o
+[06-Dec-2020 00:43:33 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[06-Dec-2020 00:43:33 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:43:33 Europe/Berlin] battle,compose
+[06-Dec-2020 00:43:33 Europe/Berlin]  This is the trimmed collection for y
+[06-Dec-2020 00:43:33 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[06-Dec-2020 00:43:33 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:43:33 Europe/Berlin] battle,compose,mystery
+[06-Dec-2020 00:43:45 Europe/Berlin] The input word is : boy
+[06-Dec-2020 00:43:45 Europe/Berlin] It contains 3 characters
+[06-Dec-2020 00:43:45 Europe/Berlin]  This is the trimmed collection for b
+[06-Dec-2020 00:43:45 Europe/Berlin] battle,birth,baby,tangible,touchable
+[06-Dec-2020 00:43:45 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:43:45 Europe/Berlin] battle
+[06-Dec-2020 00:43:45 Europe/Berlin]  This is the trimmed collection for o
+[06-Dec-2020 00:43:45 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[06-Dec-2020 00:43:45 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:43:45 Europe/Berlin] battle,compose
+[06-Dec-2020 00:43:45 Europe/Berlin]  This is the trimmed collection for y
+[06-Dec-2020 00:43:45 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[06-Dec-2020 00:43:45 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 00:43:45 Europe/Berlin] battle,compose,mystery
+[06-Dec-2020 16:57:26 Europe/Berlin] The input word is : boy
+[06-Dec-2020 16:57:26 Europe/Berlin] It contains 3 characters
+[06-Dec-2020 16:57:26 Europe/Berlin]  This is the trimmed collection for b
+[06-Dec-2020 16:57:26 Europe/Berlin] battle,birth,baby,tangible,touchable
+[06-Dec-2020 16:57:26 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 16:57:26 Europe/Berlin] battle
+[06-Dec-2020 16:57:26 Europe/Berlin]  This is the trimmed collection for o
+[06-Dec-2020 16:57:26 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[06-Dec-2020 16:57:26 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 16:57:26 Europe/Berlin] battle,compose
+[06-Dec-2020 16:57:26 Europe/Berlin]  This is the trimmed collection for y
+[06-Dec-2020 16:57:26 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[06-Dec-2020 16:57:26 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 16:57:26 Europe/Berlin] battle,compose,mystery
+[06-Dec-2020 17:04:14 Europe/Berlin] The input word is : boy
+[06-Dec-2020 17:04:14 Europe/Berlin] It contains 3 characters
+[06-Dec-2020 17:04:14 Europe/Berlin]  This is the trimmed collection for b
+[06-Dec-2020 17:04:14 Europe/Berlin] battle,birth,baby,tangible,touchable
+[06-Dec-2020 17:04:14 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 17:04:14 Europe/Berlin] battle
+[06-Dec-2020 17:04:14 Europe/Berlin]  This is the trimmed collection for o
+[06-Dec-2020 17:04:14 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[06-Dec-2020 17:04:14 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 17:04:14 Europe/Berlin] battle,compose
+[06-Dec-2020 17:04:14 Europe/Berlin]  This is the trimmed collection for y
+[06-Dec-2020 17:04:14 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[06-Dec-2020 17:04:14 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 17:04:14 Europe/Berlin] battle,compose,mystery
+[06-Dec-2020 17:19:44 Europe/Berlin] The input word is : boy
+[06-Dec-2020 17:19:44 Europe/Berlin] It contains 3 characters
+[06-Dec-2020 17:19:44 Europe/Berlin]  This is the trimmed collection for b
+[06-Dec-2020 17:19:44 Europe/Berlin] battle,birth,baby,tangible,touchable
+[06-Dec-2020 17:19:44 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 17:19:44 Europe/Berlin] battle
+[06-Dec-2020 17:19:44 Europe/Berlin]  This is the trimmed collection for o
+[06-Dec-2020 17:19:44 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[06-Dec-2020 17:19:44 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 17:19:44 Europe/Berlin] battle,compose
+[06-Dec-2020 17:19:44 Europe/Berlin]  This is the trimmed collection for y
+[06-Dec-2020 17:19:44 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[06-Dec-2020 17:19:44 Europe/Berlin] The words selected for each character are: 
+[06-Dec-2020 17:19:44 Europe/Berlin] battle,compose,mystery
+[07-Dec-2020 00:58:07 Europe/Berlin] The input word is : dab
+[07-Dec-2020 00:58:07 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 00:58:07 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 00:58:07 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 00:58:07 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 00:58:07 Europe/Berlin] daylight
+[07-Dec-2020 00:58:07 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 00:58:07 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 00:58:07 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 00:58:07 Europe/Berlin] daylight,enigma
+[07-Dec-2020 00:58:07 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 00:58:07 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 00:58:07 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 00:58:07 Europe/Berlin] daylight,enigma,battle
+[07-Dec-2020 01:05:29 Europe/Berlin] The input word is : boy
+[07-Dec-2020 01:05:29 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 01:05:29 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 01:05:29 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 01:05:29 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:05:29 Europe/Berlin] battle
+[07-Dec-2020 01:05:29 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:05:29 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:05:29 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:05:29 Europe/Berlin] battle,compose
+[07-Dec-2020 01:05:29 Europe/Berlin]  This is the trimmed collection for y
+[07-Dec-2020 01:05:29 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[07-Dec-2020 01:05:29 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:05:29 Europe/Berlin] battle,compose,mystery
+[07-Dec-2020 01:06:10 Europe/Berlin] The input word is : boy
+[07-Dec-2020 01:06:10 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 01:06:10 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 01:06:10 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 01:06:10 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:06:10 Europe/Berlin] battle
+[07-Dec-2020 01:06:10 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:06:10 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:06:10 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:06:10 Europe/Berlin] battle,compose
+[07-Dec-2020 01:06:10 Europe/Berlin]  This is the trimmed collection for y
+[07-Dec-2020 01:06:10 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[07-Dec-2020 01:06:10 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:06:10 Europe/Berlin] battle,compose,mystery
+[07-Dec-2020 01:06:17 Europe/Berlin] The input word is : morning
+[07-Dec-2020 01:06:17 Europe/Berlin] It contains 7 characters
+[07-Dec-2020 01:06:17 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 01:06:17 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma
+[07-Dec-2020 01:06:17 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:06:17 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:06:17 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma,compose
+[07-Dec-2020 01:06:17 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:06:17 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:06:17 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma,compose,mystery
+[07-Dec-2020 01:06:17 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:06:17 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma,compose,mystery,shining
+[07-Dec-2020 01:06:17 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 01:06:17 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma,compose,mystery,shining,light
+[07-Dec-2020 01:06:17 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:06:17 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma,compose,mystery,shining,light,sun
+[07-Dec-2020 01:06:17 Europe/Berlin]  This is the trimmed collection for g
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma,light,shining,daylight,game,diligent,hard-working,outstanding,distinguished,gridlock,striving,carnage,delighted,parentage,long,offspring,young,tangible
+[07-Dec-2020 01:06:17 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:06:17 Europe/Berlin] enigma,compose,mystery,shining,light,sun,daylight
+[07-Dec-2020 01:07:06 Europe/Berlin] The input word is : morning
+[07-Dec-2020 01:07:06 Europe/Berlin] It contains 7 characters
+[07-Dec-2020 01:07:06 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 01:07:06 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma
+[07-Dec-2020 01:07:06 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:07:06 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:07:06 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma,compose
+[07-Dec-2020 01:07:06 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:07:06 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:07:06 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma,compose,mystery
+[07-Dec-2020 01:07:06 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:07:06 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma,compose,mystery,shining
+[07-Dec-2020 01:07:06 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 01:07:06 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma,compose,mystery,shining,light
+[07-Dec-2020 01:07:06 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:07:06 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma,compose,mystery,shining,light,sun
+[07-Dec-2020 01:07:06 Europe/Berlin]  This is the trimmed collection for g
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma,light,shining,daylight,game,diligent,hard-working,outstanding,distinguished,gridlock,striving,carnage,delighted,parentage,long,offspring,young,tangible
+[07-Dec-2020 01:07:06 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:06 Europe/Berlin] enigma,compose,mystery,shining,light,sun,daylight
+[07-Dec-2020 01:07:40 Europe/Berlin] The input word is : morning
+[07-Dec-2020 01:07:40 Europe/Berlin] It contains 7 characters
+[07-Dec-2020 01:07:40 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 01:07:40 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma
+[07-Dec-2020 01:07:40 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:07:40 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:07:40 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma,compose
+[07-Dec-2020 01:07:40 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:07:40 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:07:40 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma,compose,mystery
+[07-Dec-2020 01:07:40 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:07:40 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma,compose,mystery,shining
+[07-Dec-2020 01:07:40 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 01:07:40 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma,compose,mystery,shining,light
+[07-Dec-2020 01:07:40 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:07:40 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma,compose,mystery,shining,light,sun
+[07-Dec-2020 01:07:40 Europe/Berlin]  This is the trimmed collection for g
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma,light,shining,daylight,game,diligent,hard-working,outstanding,distinguished,gridlock,striving,carnage,delighted,parentage,long,offspring,young,tangible
+[07-Dec-2020 01:07:40 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:07:40 Europe/Berlin] enigma,compose,mystery,shining,light,sun,daylight
+[07-Dec-2020 01:09:03 Europe/Berlin] The input word is : morning
+[07-Dec-2020 01:09:03 Europe/Berlin] It contains 7 characters
+[07-Dec-2020 01:09:03 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 01:09:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma
+[07-Dec-2020 01:09:03 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:09:03 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:09:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma,compose
+[07-Dec-2020 01:09:03 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:09:03 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:09:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma,compose,mystery
+[07-Dec-2020 01:09:03 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:09:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma,compose,mystery,shining
+[07-Dec-2020 01:09:03 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 01:09:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma,compose,mystery,shining,light
+[07-Dec-2020 01:09:03 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:09:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma,compose,mystery,shining,light,sun
+[07-Dec-2020 01:09:03 Europe/Berlin]  This is the trimmed collection for g
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma,light,shining,daylight,game,diligent,hard-working,outstanding,distinguished,gridlock,striving,carnage,delighted,parentage,long,offspring,young,tangible
+[07-Dec-2020 01:09:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:03 Europe/Berlin] enigma,compose,mystery,shining,light,sun,daylight
+[07-Dec-2020 01:09:54 Europe/Berlin] The input word is : course
+[07-Dec-2020 01:09:54 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 01:09:54 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 01:09:54 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 01:09:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:54 Europe/Berlin] compose
+[07-Dec-2020 01:09:54 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:09:54 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:09:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:54 Europe/Berlin] compose,old
+[07-Dec-2020 01:09:54 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 01:09:54 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 01:09:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:54 Europe/Berlin] compose,old,sun
+[07-Dec-2020 01:09:54 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:09:54 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:09:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:54 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 01:09:54 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 01:09:54 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 01:09:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:54 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 01:09:54 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 01:09:54 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:09:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:09:54 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 01:10:24 Europe/Berlin] The input word is : course
+[07-Dec-2020 01:10:24 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 01:10:24 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 01:10:24 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 01:10:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:24 Europe/Berlin] compose
+[07-Dec-2020 01:10:24 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:10:24 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:10:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:24 Europe/Berlin] compose,old
+[07-Dec-2020 01:10:24 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 01:10:24 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 01:10:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:24 Europe/Berlin] compose,old,sun
+[07-Dec-2020 01:10:24 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:10:24 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:10:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:24 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 01:10:24 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 01:10:24 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 01:10:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:24 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 01:10:24 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 01:10:24 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:10:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:24 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 01:10:30 Europe/Berlin] The input word is : course
+[07-Dec-2020 01:10:30 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 01:10:30 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 01:10:30 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 01:10:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:30 Europe/Berlin] compose
+[07-Dec-2020 01:10:30 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:10:30 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:10:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:30 Europe/Berlin] compose,old
+[07-Dec-2020 01:10:30 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 01:10:30 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 01:10:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:30 Europe/Berlin] compose,old,sun
+[07-Dec-2020 01:10:30 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:10:30 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:10:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:30 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 01:10:30 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 01:10:30 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 01:10:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:30 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 01:10:30 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 01:10:30 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:10:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:30 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 01:10:44 Europe/Berlin] The input word is : lindamaka
+[07-Dec-2020 01:10:44 Europe/Berlin] It contains 9 characters
+[07-Dec-2020 01:10:44 Europe/Berlin]  This is the trimmed collection for l
+[07-Dec-2020 01:10:44 Europe/Berlin] light,daylight,trial,old,play,diligent,gridlock,battle,delighted,long,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:10:44 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:44 Europe/Berlin] light
+[07-Dec-2020 01:10:44 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 01:10:44 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 01:10:44 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:44 Europe/Berlin] light,enigma
+[07-Dec-2020 01:10:44 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:10:44 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:10:44 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:44 Europe/Berlin] light,enigma,shining
+[07-Dec-2020 01:10:44 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 01:10:44 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 01:10:44 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:44 Europe/Berlin] light,enigma,shining,daylight
+[07-Dec-2020 01:10:44 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 01:10:44 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 01:10:44 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:44 Europe/Berlin] light,enigma,shining,daylight,trial
+[07-Dec-2020 01:10:44 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 01:10:44 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 01:10:44 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:44 Europe/Berlin] light,enigma,shining,daylight,trial,mystery
+[07-Dec-2020 01:10:44 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 01:10:44 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 01:10:44 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:44 Europe/Berlin] light,enigma,shining,daylight,trial,mystery,archiac
+[07-Dec-2020 01:10:44 Europe/Berlin]  This is the trimmed collection for k
+[07-Dec-2020 01:10:44 Europe/Berlin] hard-working,gridlock
+[07-Dec-2020 01:10:44 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:44 Europe/Berlin] light,enigma,shining,daylight,trial,mystery,archiac,hard-working
+[07-Dec-2020 01:10:44 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 01:10:44 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 01:10:44 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:10:44 Europe/Berlin] light,enigma,shining,daylight,trial,mystery,archiac,hard-working,papa
+[07-Dec-2020 01:11:24 Europe/Berlin] The input word is : గుమ్మ
+[07-Dec-2020 01:11:24 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 01:11:24 Europe/Berlin]  This is the trimmed collection for గు
+[07-Dec-2020 01:11:24 Europe/Berlin] గుబులు,దిగులు,దిగులుపాటు,నివ్వెఱగు,పంగు,బుగులు
+[07-Dec-2020 01:11:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:11:24 Europe/Berlin] గుబులు
+[07-Dec-2020 01:11:24 Europe/Berlin]  This is the trimmed collection for మ్మ
+[07-Dec-2020 01:11:24 Europe/Berlin] పిమ్మట
+[07-Dec-2020 01:11:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:11:24 Europe/Berlin] గుబులు,పిమ్మట
+[07-Dec-2020 01:21:26 Europe/Berlin] The input word is : గుమ్మ
+[07-Dec-2020 01:21:26 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 01:21:26 Europe/Berlin]  This is the trimmed collection for గు
+[07-Dec-2020 01:21:26 Europe/Berlin] గుబులు,దిగులు,దిగులుపాటు,నివ్వెఱగు,పంగు,బుగులు
+[07-Dec-2020 01:21:26 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:21:26 Europe/Berlin] గుబులు
+[07-Dec-2020 01:21:26 Europe/Berlin]  This is the trimmed collection for మ్మ
+[07-Dec-2020 01:21:26 Europe/Berlin] పిమ్మట
+[07-Dec-2020 01:21:26 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:21:26 Europe/Berlin] గుబులు,పిమ్మట
+[07-Dec-2020 01:21:26 Europe/Berlin] PHP Notice:  Undefined variable: db in C:\xampp\htdocs\synonyms\puzzle3.php on line 183
+[07-Dec-2020 01:21:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\synonyms\puzzle3.php:183
+Stack trace:
+#0 C:\xampp\htdocs\synonyms\puzzle3.php(177): getMaterwords(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\synonyms\puzzle3.php on line 183
+[07-Dec-2020 01:23:39 Europe/Berlin] The input word is : గుమ్మ
+[07-Dec-2020 01:23:39 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 01:23:39 Europe/Berlin]  This is the trimmed collection for గు
+[07-Dec-2020 01:23:39 Europe/Berlin] గుబులు,దిగులు,దిగులుపాటు,నివ్వెఱగు,పంగు,బుగులు
+[07-Dec-2020 01:23:39 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:23:39 Europe/Berlin] గుబులు
+[07-Dec-2020 01:23:39 Europe/Berlin]  This is the trimmed collection for మ్మ
+[07-Dec-2020 01:23:39 Europe/Berlin] పిమ్మట
+[07-Dec-2020 01:23:39 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:23:39 Europe/Berlin] గుబులు,పిమ్మట
+[07-Dec-2020 01:23:39 Europe/Berlin] PHP Notice:  Undefined variable: db in C:\xampp\htdocs\synonyms\puzzle3.php on line 183
+[07-Dec-2020 01:23:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\synonyms\puzzle3.php:183
+Stack trace:
+#0 C:\xampp\htdocs\synonyms\puzzle3.php(177): getMaterwords(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\synonyms\puzzle3.php on line 183
+[07-Dec-2020 01:26:24 Europe/Berlin] The input word is : గుమ్మ
+[07-Dec-2020 01:26:24 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 01:26:24 Europe/Berlin]  This is the trimmed collection for గు
+[07-Dec-2020 01:26:24 Europe/Berlin] గుబులు,దిగులు,దిగులుపాటు,నివ్వెఱగు,పంగు,బుగులు
+[07-Dec-2020 01:26:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:26:24 Europe/Berlin] గుబులు
+[07-Dec-2020 01:26:24 Europe/Berlin]  This is the trimmed collection for మ్మ
+[07-Dec-2020 01:26:24 Europe/Berlin] పిమ్మట
+[07-Dec-2020 01:26:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:26:24 Europe/Berlin] గుబులు,పిమ్మట
+[07-Dec-2020 01:26:24 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getMaterwords(), 0 passed in C:\xampp\htdocs\synonyms\puzzle3.php on line 177 and exactly 1 expected in C:\xampp\htdocs\synonyms\puzzle3.php:179
+Stack trace:
+#0 C:\xampp\htdocs\synonyms\puzzle3.php(177): getMaterwords()
+#1 {main}
+  thrown in C:\xampp\htdocs\synonyms\puzzle3.php on line 179
+[07-Dec-2020 01:27:34 Europe/Berlin] The input word is : గుమ్మ
+[07-Dec-2020 01:27:34 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 01:27:34 Europe/Berlin]  This is the trimmed collection for గు
+[07-Dec-2020 01:27:34 Europe/Berlin] గుబులు,దిగులు,దిగులుపాటు,నివ్వెఱగు,పంగు,బుగులు
+[07-Dec-2020 01:27:34 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:27:34 Europe/Berlin] గుబులు
+[07-Dec-2020 01:27:34 Europe/Berlin]  This is the trimmed collection for మ్మ
+[07-Dec-2020 01:27:34 Europe/Berlin] పిమ్మట
+[07-Dec-2020 01:27:34 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:27:34 Europe/Berlin] గుబులు,పిమ్మట
+[07-Dec-2020 01:28:45 Europe/Berlin] The input word is : dab
+[07-Dec-2020 01:28:45 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 01:28:45 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 01:28:45 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 01:28:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:28:45 Europe/Berlin] daylight
+[07-Dec-2020 01:28:45 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 01:28:45 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 01:28:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:28:45 Europe/Berlin] daylight,enigma
+[07-Dec-2020 01:28:45 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 01:28:45 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 01:28:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:28:45 Europe/Berlin] daylight,enigma,battle
+[07-Dec-2020 01:29:07 Europe/Berlin] The input word is : dab
+[07-Dec-2020 01:29:07 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 01:29:07 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 01:29:07 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 01:29:07 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:07 Europe/Berlin] daylight
+[07-Dec-2020 01:29:07 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 01:29:07 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 01:29:07 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:07 Europe/Berlin] daylight,enigma
+[07-Dec-2020 01:29:07 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 01:29:07 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 01:29:07 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:07 Europe/Berlin] daylight,enigma,battle
+[07-Dec-2020 01:29:13 Europe/Berlin] The input word is : morning
+[07-Dec-2020 01:29:13 Europe/Berlin] It contains 7 characters
+[07-Dec-2020 01:29:13 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 01:29:13 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma
+[07-Dec-2020 01:29:13 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:29:13 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:29:13 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma,compose
+[07-Dec-2020 01:29:13 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:29:13 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:29:13 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma,compose,mystery
+[07-Dec-2020 01:29:13 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:29:13 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma,compose,mystery,shining
+[07-Dec-2020 01:29:13 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 01:29:13 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma,compose,mystery,shining,light
+[07-Dec-2020 01:29:13 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:29:13 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma,compose,mystery,shining,light,sun
+[07-Dec-2020 01:29:13 Europe/Berlin]  This is the trimmed collection for g
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma,light,shining,daylight,game,diligent,hard-working,outstanding,distinguished,gridlock,striving,carnage,delighted,parentage,long,offspring,young,tangible
+[07-Dec-2020 01:29:13 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:13 Europe/Berlin] enigma,compose,mystery,shining,light,sun,daylight
+[07-Dec-2020 01:29:48 Europe/Berlin] The input word is : morning
+[07-Dec-2020 01:29:48 Europe/Berlin] It contains 7 characters
+[07-Dec-2020 01:29:48 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 01:29:48 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma
+[07-Dec-2020 01:29:48 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:29:48 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:29:48 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma,compose
+[07-Dec-2020 01:29:48 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:29:48 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:29:48 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma,compose,mystery
+[07-Dec-2020 01:29:48 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:29:48 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma,compose,mystery,shining
+[07-Dec-2020 01:29:48 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 01:29:48 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma,compose,mystery,shining,light
+[07-Dec-2020 01:29:48 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:29:48 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma,compose,mystery,shining,light,sun
+[07-Dec-2020 01:29:48 Europe/Berlin]  This is the trimmed collection for g
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma,light,shining,daylight,game,diligent,hard-working,outstanding,distinguished,gridlock,striving,carnage,delighted,parentage,long,offspring,young,tangible
+[07-Dec-2020 01:29:48 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:48 Europe/Berlin] enigma,compose,mystery,shining,light,sun,daylight
+[07-Dec-2020 01:29:54 Europe/Berlin] The input word is : morning
+[07-Dec-2020 01:29:54 Europe/Berlin] It contains 7 characters
+[07-Dec-2020 01:29:54 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 01:29:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma
+[07-Dec-2020 01:29:54 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:29:54 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:29:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma,compose
+[07-Dec-2020 01:29:54 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:29:54 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:29:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma,compose,mystery
+[07-Dec-2020 01:29:54 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:29:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma,compose,mystery,shining
+[07-Dec-2020 01:29:54 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 01:29:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma,compose,mystery,shining,light
+[07-Dec-2020 01:29:54 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:29:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma,compose,mystery,shining,light,sun
+[07-Dec-2020 01:29:54 Europe/Berlin]  This is the trimmed collection for g
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma,light,shining,daylight,game,diligent,hard-working,outstanding,distinguished,gridlock,striving,carnage,delighted,parentage,long,offspring,young,tangible
+[07-Dec-2020 01:29:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:54 Europe/Berlin] enigma,compose,mystery,shining,light,sun,daylight
+[07-Dec-2020 01:29:59 Europe/Berlin] The input word is : lindamaka
+[07-Dec-2020 01:29:59 Europe/Berlin] It contains 9 characters
+[07-Dec-2020 01:29:59 Europe/Berlin]  This is the trimmed collection for l
+[07-Dec-2020 01:29:59 Europe/Berlin] light,daylight,trial,old,play,diligent,gridlock,battle,delighted,long,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:59 Europe/Berlin] light
+[07-Dec-2020 01:29:59 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 01:29:59 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 01:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:59 Europe/Berlin] light,enigma
+[07-Dec-2020 01:29:59 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:29:59 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:59 Europe/Berlin] light,enigma,shining
+[07-Dec-2020 01:29:59 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 01:29:59 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 01:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:59 Europe/Berlin] light,enigma,shining,daylight
+[07-Dec-2020 01:29:59 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 01:29:59 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 01:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:59 Europe/Berlin] light,enigma,shining,daylight,trial
+[07-Dec-2020 01:29:59 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 01:29:59 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 01:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:59 Europe/Berlin] light,enigma,shining,daylight,trial,mystery
+[07-Dec-2020 01:29:59 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 01:29:59 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 01:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:59 Europe/Berlin] light,enigma,shining,daylight,trial,mystery,archiac
+[07-Dec-2020 01:29:59 Europe/Berlin]  This is the trimmed collection for k
+[07-Dec-2020 01:29:59 Europe/Berlin] hard-working,gridlock
+[07-Dec-2020 01:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:59 Europe/Berlin] light,enigma,shining,daylight,trial,mystery,archiac,hard-working
+[07-Dec-2020 01:29:59 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 01:29:59 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 01:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:29:59 Europe/Berlin] light,enigma,shining,daylight,trial,mystery,archiac,hard-working,papa
+[07-Dec-2020 01:35:20 Europe/Berlin] The input word is : boy
+[07-Dec-2020 01:35:20 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 01:35:20 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 01:35:20 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 01:35:20 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:35:20 Europe/Berlin] battle
+[07-Dec-2020 01:35:20 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:35:20 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:35:20 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:35:20 Europe/Berlin] battle,compose
+[07-Dec-2020 01:35:20 Europe/Berlin]  This is the trimmed collection for y
+[07-Dec-2020 01:35:20 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[07-Dec-2020 01:35:20 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:35:20 Europe/Berlin] battle,compose,mystery
+[07-Dec-2020 01:35:50 Europe/Berlin] The input word is : morning
+[07-Dec-2020 01:35:50 Europe/Berlin] It contains 7 characters
+[07-Dec-2020 01:35:50 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 01:35:50 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma
+[07-Dec-2020 01:35:50 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:35:50 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:35:50 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma,compose
+[07-Dec-2020 01:35:50 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:35:50 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:35:50 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma,compose,mystery
+[07-Dec-2020 01:35:50 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:35:50 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma,compose,mystery,shining
+[07-Dec-2020 01:35:50 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 01:35:50 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma,compose,mystery,shining,light
+[07-Dec-2020 01:35:50 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:35:50 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma,compose,mystery,shining,light,sun
+[07-Dec-2020 01:35:50 Europe/Berlin]  This is the trimmed collection for g
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma,light,shining,daylight,game,diligent,hard-working,outstanding,distinguished,gridlock,striving,carnage,delighted,parentage,long,offspring,young,tangible
+[07-Dec-2020 01:35:50 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:35:50 Europe/Berlin] enigma,compose,mystery,shining,light,sun,daylight
+[07-Dec-2020 01:37:56 Europe/Berlin] The input word is : morning
+[07-Dec-2020 01:37:56 Europe/Berlin] It contains 7 characters
+[07-Dec-2020 01:37:56 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 01:37:56 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma
+[07-Dec-2020 01:37:56 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:37:56 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:37:56 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma,compose
+[07-Dec-2020 01:37:56 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:37:56 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:37:56 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma,compose,mystery
+[07-Dec-2020 01:37:56 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:37:56 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma,compose,mystery,shining
+[07-Dec-2020 01:37:56 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 01:37:56 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma,compose,mystery,shining,light
+[07-Dec-2020 01:37:56 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 01:37:56 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma,compose,mystery,shining,light,sun
+[07-Dec-2020 01:37:56 Europe/Berlin]  This is the trimmed collection for g
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma,light,shining,daylight,game,diligent,hard-working,outstanding,distinguished,gridlock,striving,carnage,delighted,parentage,long,offspring,young,tangible
+[07-Dec-2020 01:37:56 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:37:56 Europe/Berlin] enigma,compose,mystery,shining,light,sun,daylight
+[07-Dec-2020 01:38:58 Europe/Berlin] The input word is : సృష్టించు
+[07-Dec-2020 01:38:58 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 01:38:58 Europe/Berlin]  This is the trimmed collection for సృ
+[07-Dec-2020 01:38:58 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:38:58 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:38:58 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:38:58 Europe/Berlin]  This is the trimmed collection for ష్టిం
+[07-Dec-2020 01:38:58 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:38:58 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:38:58 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:38:58 Europe/Berlin]  This is the trimmed collection for చు
+[07-Dec-2020 01:38:58 Europe/Berlin] మంచుకొండ,సృష్టించు,కల్పించు,రచించు
+[07-Dec-2020 01:38:58 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:38:58 Europe/Berlin] సృష్టించు,మంచుకొండ
+[07-Dec-2020 01:51:51 Europe/Berlin] The input word is : సృష్టించు
+[07-Dec-2020 01:51:51 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 01:51:51 Europe/Berlin]  This is the trimmed collection for సృ
+[07-Dec-2020 01:51:51 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:51:51 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:51:51 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:51:51 Europe/Berlin]  This is the trimmed collection for ష్టిం
+[07-Dec-2020 01:51:51 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:51:51 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:51:51 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:51:51 Europe/Berlin]  This is the trimmed collection for చు
+[07-Dec-2020 01:51:51 Europe/Berlin] మంచుకొండ,సృష్టించు,కల్పించు,రచించు
+[07-Dec-2020 01:51:51 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:51:51 Europe/Berlin] సృష్టించు,మంచుకొండ
+[07-Dec-2020 01:53:30 Europe/Berlin] The input word is : సృష్టించు
+[07-Dec-2020 01:53:30 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 01:53:30 Europe/Berlin]  This is the trimmed collection for సృ
+[07-Dec-2020 01:53:30 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:53:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:53:30 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:53:30 Europe/Berlin]  This is the trimmed collection for ష్టిం
+[07-Dec-2020 01:53:30 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:53:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:53:30 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:53:30 Europe/Berlin]  This is the trimmed collection for చు
+[07-Dec-2020 01:53:30 Europe/Berlin] మంచుకొండ,సృష్టించు,కల్పించు,రచించు
+[07-Dec-2020 01:53:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:53:30 Europe/Berlin] సృష్టించు,మంచుకొండ
+[07-Dec-2020 01:53:59 Europe/Berlin] The input word is : course
+[07-Dec-2020 01:53:59 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 01:53:59 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 01:53:59 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 01:53:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:53:59 Europe/Berlin] compose
+[07-Dec-2020 01:53:59 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:53:59 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:53:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:53:59 Europe/Berlin] compose,old
+[07-Dec-2020 01:53:59 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 01:53:59 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 01:53:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:53:59 Europe/Berlin] compose,old,sun
+[07-Dec-2020 01:53:59 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:53:59 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:53:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:53:59 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 01:53:59 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 01:53:59 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 01:53:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:53:59 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 01:53:59 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 01:53:59 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:53:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:53:59 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 01:54:34 Europe/Berlin] The input word is : course
+[07-Dec-2020 01:54:34 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 01:54:34 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 01:54:34 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 01:54:34 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:34 Europe/Berlin] compose
+[07-Dec-2020 01:54:34 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:54:34 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:54:34 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:34 Europe/Berlin] compose,old
+[07-Dec-2020 01:54:34 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 01:54:34 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 01:54:34 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:34 Europe/Berlin] compose,old,sun
+[07-Dec-2020 01:54:34 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:54:34 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:54:34 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:34 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 01:54:34 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 01:54:34 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 01:54:34 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:34 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 01:54:34 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 01:54:34 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:54:34 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:34 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 01:54:52 Europe/Berlin] The input word is : course
+[07-Dec-2020 01:54:52 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 01:54:52 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 01:54:52 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 01:54:52 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:52 Europe/Berlin] compose
+[07-Dec-2020 01:54:52 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:54:52 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:54:52 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:52 Europe/Berlin] compose,old
+[07-Dec-2020 01:54:52 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 01:54:52 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 01:54:52 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:52 Europe/Berlin] compose,old,sun
+[07-Dec-2020 01:54:52 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:54:52 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:54:52 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:52 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 01:54:52 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 01:54:52 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 01:54:52 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:52 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 01:54:52 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 01:54:52 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:54:52 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:54:52 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 01:55:43 Europe/Berlin] The input word is : course
+[07-Dec-2020 01:55:43 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 01:55:43 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 01:55:43 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 01:55:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:55:43 Europe/Berlin] compose
+[07-Dec-2020 01:55:43 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:55:43 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:55:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:55:43 Europe/Berlin] compose,old
+[07-Dec-2020 01:55:43 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 01:55:43 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 01:55:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:55:43 Europe/Berlin] compose,old,sun
+[07-Dec-2020 01:55:43 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:55:43 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:55:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:55:43 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 01:55:43 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 01:55:43 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 01:55:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:55:43 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 01:55:43 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 01:55:43 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:55:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:55:43 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 01:55:43 Europe/Berlin] PHP Notice:  Undefined variable: usedwords in C:\xampp\htdocs\synonyms\puzzle3.php on line 179
+[07-Dec-2020 01:55:43 Europe/Berlin] PHP Warning:  implode(): Invalid arguments passed in C:\xampp\htdocs\synonyms\puzzle3.php on line 179
+[07-Dec-2020 01:56:20 Europe/Berlin] The input word is : course
+[07-Dec-2020 01:56:20 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 01:56:20 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 01:56:20 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 01:56:20 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:20 Europe/Berlin] compose
+[07-Dec-2020 01:56:20 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:56:20 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:56:20 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:20 Europe/Berlin] compose,old
+[07-Dec-2020 01:56:20 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 01:56:20 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 01:56:20 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:20 Europe/Berlin] compose,old,sun
+[07-Dec-2020 01:56:20 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:56:20 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:56:20 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:20 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 01:56:20 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 01:56:20 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 01:56:20 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:20 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 01:56:20 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 01:56:20 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:56:20 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:20 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 01:56:49 Europe/Berlin] The input word is : course
+[07-Dec-2020 01:56:49 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 01:56:49 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 01:56:49 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 01:56:49 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:49 Europe/Berlin] compose
+[07-Dec-2020 01:56:49 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:56:49 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:56:49 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:49 Europe/Berlin] compose,old
+[07-Dec-2020 01:56:49 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 01:56:49 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 01:56:49 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:49 Europe/Berlin] compose,old,sun
+[07-Dec-2020 01:56:49 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:56:49 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:56:49 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:49 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 01:56:49 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 01:56:49 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 01:56:49 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:49 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 01:56:49 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 01:56:49 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:56:49 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:56:49 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 01:57:14 Europe/Berlin] The input word is : course
+[07-Dec-2020 01:57:14 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 01:57:14 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 01:57:14 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 01:57:14 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:14 Europe/Berlin] compose
+[07-Dec-2020 01:57:14 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:57:14 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:57:14 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:14 Europe/Berlin] compose,old
+[07-Dec-2020 01:57:14 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 01:57:14 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 01:57:14 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:14 Europe/Berlin] compose,old,sun
+[07-Dec-2020 01:57:14 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:57:14 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:57:14 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:14 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 01:57:14 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 01:57:14 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 01:57:14 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:14 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 01:57:14 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 01:57:14 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:57:14 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:14 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 01:57:18 Europe/Berlin] The input word is : course
+[07-Dec-2020 01:57:18 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 01:57:18 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 01:57:18 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 01:57:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:18 Europe/Berlin] compose
+[07-Dec-2020 01:57:18 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 01:57:18 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 01:57:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:18 Europe/Berlin] compose,old
+[07-Dec-2020 01:57:18 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 01:57:18 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 01:57:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:18 Europe/Berlin] compose,old,sun
+[07-Dec-2020 01:57:18 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 01:57:18 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 01:57:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:18 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 01:57:18 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 01:57:18 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 01:57:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:18 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 01:57:18 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 01:57:18 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 01:57:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:57:18 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 01:59:33 Europe/Berlin] The input word is : సృష్టించు
+[07-Dec-2020 01:59:33 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 01:59:33 Europe/Berlin]  This is the trimmed collection for సృ
+[07-Dec-2020 01:59:33 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:59:33 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:59:33 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:59:33 Europe/Berlin]  This is the trimmed collection for ష్టిం
+[07-Dec-2020 01:59:33 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:59:33 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:59:33 Europe/Berlin] సృష్టించు
+[07-Dec-2020 01:59:33 Europe/Berlin]  This is the trimmed collection for చు
+[07-Dec-2020 01:59:33 Europe/Berlin] మంచుకొండ,సృష్టించు,కల్పించు,రచించు
+[07-Dec-2020 01:59:33 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:59:33 Europe/Berlin] సృష్టించు,మంచుకొండ
+[07-Dec-2020 01:59:54 Europe/Berlin] The input word is : గుమ్మ
+[07-Dec-2020 01:59:54 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 01:59:54 Europe/Berlin]  This is the trimmed collection for గు
+[07-Dec-2020 01:59:54 Europe/Berlin] గుబులు,దిగులు,దిగులుపాటు,నివ్వెఱగు,పంగు,బుగులు
+[07-Dec-2020 01:59:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:59:54 Europe/Berlin] గుబులు
+[07-Dec-2020 01:59:54 Europe/Berlin]  This is the trimmed collection for మ్మ
+[07-Dec-2020 01:59:54 Europe/Berlin] పిమ్మట
+[07-Dec-2020 01:59:54 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 01:59:54 Europe/Berlin] గుబులు,పిమ్మట
+[07-Dec-2020 02:00:11 Europe/Berlin] The input word is : భీతి
+[07-Dec-2020 02:00:11 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 02:00:11 Europe/Berlin]  This is the trimmed collection for భీ
+[07-Dec-2020 02:00:11 Europe/Berlin] భీతము,భీతి,భీష
+[07-Dec-2020 02:00:11 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:00:11 Europe/Berlin] భీతము
+[07-Dec-2020 02:00:11 Europe/Berlin]  This is the trimmed collection for తి
+[07-Dec-2020 02:00:11 Europe/Berlin] భీతి,పురోగతి
+[07-Dec-2020 02:00:11 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:00:11 Europe/Berlin] భీతము,భీతి
+[07-Dec-2020 02:00:29 Europe/Berlin] The input word is : స్తీర్వి
+[07-Dec-2020 02:00:29 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 02:00:29 Europe/Berlin]  This is the trimmed collection for స్తీ
+[07-Dec-2020 02:00:29 Europe/Berlin] స్తీర్వి
+[07-Dec-2020 02:00:29 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:00:29 Europe/Berlin] స్తీర్వి
+[07-Dec-2020 02:00:29 Europe/Berlin]  This is the trimmed collection for ర్వి
+[07-Dec-2020 02:00:29 Europe/Berlin] స్తీర్వి
+[07-Dec-2020 02:00:29 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:00:29 Europe/Berlin] స్తీర్వి
+[07-Dec-2020 02:01:11 Europe/Berlin] The input word is : సృష్టించు
+[07-Dec-2020 02:01:11 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 02:01:11 Europe/Berlin]  This is the trimmed collection for సృ
+[07-Dec-2020 02:01:11 Europe/Berlin] సృష్టించు
+[07-Dec-2020 02:01:11 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:01:11 Europe/Berlin] సృష్టించు
+[07-Dec-2020 02:01:11 Europe/Berlin]  This is the trimmed collection for ష్టిం
+[07-Dec-2020 02:01:11 Europe/Berlin] సృష్టించు
+[07-Dec-2020 02:01:11 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:01:11 Europe/Berlin] సృష్టించు
+[07-Dec-2020 02:01:11 Europe/Berlin]  This is the trimmed collection for చు
+[07-Dec-2020 02:01:11 Europe/Berlin] మంచుకొండ,సృష్టించు,కల్పించు,రచించు
+[07-Dec-2020 02:01:11 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:01:11 Europe/Berlin] సృష్టించు,మంచుకొండ
+[07-Dec-2020 02:01:33 Europe/Berlin] The input word is : linda
+[07-Dec-2020 02:01:33 Europe/Berlin] It contains 5 characters
+[07-Dec-2020 02:01:33 Europe/Berlin]  This is the trimmed collection for l
+[07-Dec-2020 02:01:33 Europe/Berlin] light,daylight,trial,old,play,diligent,gridlock,battle,delighted,long,whelp,tactile,tangible,touchable
+[07-Dec-2020 02:01:33 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:01:33 Europe/Berlin] light
+[07-Dec-2020 02:01:33 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 02:01:33 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 02:01:33 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:01:33 Europe/Berlin] light,enigma
+[07-Dec-2020 02:01:33 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 02:01:33 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 02:01:33 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:01:33 Europe/Berlin] light,enigma,shining
+[07-Dec-2020 02:01:33 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 02:01:33 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 02:01:33 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:01:33 Europe/Berlin] light,enigma,shining,daylight
+[07-Dec-2020 02:01:33 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 02:01:33 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 02:01:33 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:01:33 Europe/Berlin] light,enigma,shining,daylight,trial
+[07-Dec-2020 02:05:37 Europe/Berlin] The input word is : boy
+[07-Dec-2020 02:05:37 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 02:05:37 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 02:05:37 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 02:05:37 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:05:37 Europe/Berlin] battle
+[07-Dec-2020 02:05:37 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 02:05:37 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 02:05:37 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:05:37 Europe/Berlin] battle,compose
+[07-Dec-2020 02:05:37 Europe/Berlin]  This is the trimmed collection for y
+[07-Dec-2020 02:05:37 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[07-Dec-2020 02:05:37 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:05:37 Europe/Berlin] battle,compose,mystery
+[07-Dec-2020 02:05:46 Europe/Berlin] The input word is : course
+[07-Dec-2020 02:05:46 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 02:05:46 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 02:05:46 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 02:05:46 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:05:46 Europe/Berlin] compose
+[07-Dec-2020 02:05:46 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 02:05:46 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 02:05:46 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:05:46 Europe/Berlin] compose,old
+[07-Dec-2020 02:05:46 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 02:05:46 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 02:05:46 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:05:46 Europe/Berlin] compose,old,sun
+[07-Dec-2020 02:05:46 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 02:05:46 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 02:05:46 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:05:46 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 02:05:46 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 02:05:46 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 02:05:46 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:05:46 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 02:05:46 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 02:05:46 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 02:05:46 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:05:46 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 02:06:08 Europe/Berlin] The input word is : lindamaka
+[07-Dec-2020 02:06:08 Europe/Berlin] It contains 9 characters
+[07-Dec-2020 02:06:08 Europe/Berlin]  This is the trimmed collection for l
+[07-Dec-2020 02:06:08 Europe/Berlin] light,daylight,trial,old,play,diligent,gridlock,battle,delighted,long,whelp,tactile,tangible,touchable
+[07-Dec-2020 02:06:08 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:06:08 Europe/Berlin] light
+[07-Dec-2020 02:06:08 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 02:06:08 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 02:06:08 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:06:08 Europe/Berlin] light,enigma
+[07-Dec-2020 02:06:08 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 02:06:08 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 02:06:08 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:06:08 Europe/Berlin] light,enigma,shining
+[07-Dec-2020 02:06:08 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 02:06:08 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 02:06:08 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:06:08 Europe/Berlin] light,enigma,shining,daylight
+[07-Dec-2020 02:06:08 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 02:06:08 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 02:06:08 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:06:08 Europe/Berlin] light,enigma,shining,daylight,trial
+[07-Dec-2020 02:06:08 Europe/Berlin]  This is the trimmed collection for m
+[07-Dec-2020 02:06:08 Europe/Berlin] enigma,mystery,compose,movie,game,num,num1,important,prominent,eminent
+[07-Dec-2020 02:06:08 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:06:08 Europe/Berlin] light,enigma,shining,daylight,trial,mystery
+[07-Dec-2020 02:06:08 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 02:06:08 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 02:06:08 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:06:08 Europe/Berlin] light,enigma,shining,daylight,trial,mystery,archiac
+[07-Dec-2020 02:06:08 Europe/Berlin]  This is the trimmed collection for k
+[07-Dec-2020 02:06:08 Europe/Berlin] hard-working,gridlock
+[07-Dec-2020 02:06:08 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:06:08 Europe/Berlin] light,enigma,shining,daylight,trial,mystery,archiac,hard-working
+[07-Dec-2020 02:06:08 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 02:06:08 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 02:06:08 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:06:08 Europe/Berlin] light,enigma,shining,daylight,trial,mystery,archiac,hard-working,papa
+[07-Dec-2020 02:07:32 Europe/Berlin] The input word is : సృష్టించు
+[07-Dec-2020 02:07:32 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 02:07:32 Europe/Berlin]  This is the trimmed collection for సృ
+[07-Dec-2020 02:07:32 Europe/Berlin] సృష్టించు
+[07-Dec-2020 02:07:32 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:07:32 Europe/Berlin] సృష్టించు
+[07-Dec-2020 02:07:32 Europe/Berlin]  This is the trimmed collection for ష్టిం
+[07-Dec-2020 02:07:32 Europe/Berlin] సృష్టించు
+[07-Dec-2020 02:07:32 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:07:32 Europe/Berlin] సృష్టించు
+[07-Dec-2020 02:07:32 Europe/Berlin]  This is the trimmed collection for చు
+[07-Dec-2020 02:07:32 Europe/Berlin] మంచుకొండ,సృష్టించు,కల్పించు,రచించు
+[07-Dec-2020 02:07:32 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:07:32 Europe/Berlin] సృష్టించు,మంచుకొండ
+[07-Dec-2020 02:08:18 Europe/Berlin] The input word is : గుమ్మ
+[07-Dec-2020 02:08:18 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 02:08:18 Europe/Berlin]  This is the trimmed collection for గు
+[07-Dec-2020 02:08:18 Europe/Berlin] గుబులు,దిగులు,దిగులుపాటు,నివ్వెఱగు,పంగు,బుగులు
+[07-Dec-2020 02:08:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:08:18 Europe/Berlin] గుబులు
+[07-Dec-2020 02:08:18 Europe/Berlin]  This is the trimmed collection for మ్మ
+[07-Dec-2020 02:08:18 Europe/Berlin] పిమ్మట
+[07-Dec-2020 02:08:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:08:18 Europe/Berlin] గుబులు,పిమ్మట
+[07-Dec-2020 02:08:30 Europe/Berlin] The input word is : స్తీర్వి
+[07-Dec-2020 02:08:30 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 02:08:30 Europe/Berlin]  This is the trimmed collection for స్తీ
+[07-Dec-2020 02:08:30 Europe/Berlin] స్తీర్వి
+[07-Dec-2020 02:08:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:08:30 Europe/Berlin] స్తీర్వి
+[07-Dec-2020 02:08:30 Europe/Berlin]  This is the trimmed collection for ర్వి
+[07-Dec-2020 02:08:30 Europe/Berlin] స్తీర్వి
+[07-Dec-2020 02:08:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:08:30 Europe/Berlin] స్తీర్వి
+[07-Dec-2020 02:10:58 Europe/Berlin] The input word is : భీతి
+[07-Dec-2020 02:10:58 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 02:10:58 Europe/Berlin]  This is the trimmed collection for భీ
+[07-Dec-2020 02:10:58 Europe/Berlin] భీతము,భీతి,భీష
+[07-Dec-2020 02:10:58 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:10:58 Europe/Berlin] భీతము
+[07-Dec-2020 02:10:58 Europe/Berlin]  This is the trimmed collection for తి
+[07-Dec-2020 02:10:58 Europe/Berlin] భీతి,పురోగతి
+[07-Dec-2020 02:10:58 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:10:58 Europe/Berlin] భీతము,భీతి
+[07-Dec-2020 02:11:17 Europe/Berlin] The input word is : భయము
+[07-Dec-2020 02:11:17 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 02:11:17 Europe/Berlin]  This is the trimmed collection for భ
+[07-Dec-2020 02:11:17 Europe/Berlin] భయము
+[07-Dec-2020 02:11:17 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:11:17 Europe/Berlin] భయము
+[07-Dec-2020 02:11:17 Europe/Berlin]  This is the trimmed collection for య
+[07-Dec-2020 02:11:17 Europe/Berlin] భయము
+[07-Dec-2020 02:11:17 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:11:17 Europe/Berlin] భయము
+[07-Dec-2020 02:11:17 Europe/Berlin]  This is the trimmed collection for ము
+[07-Dec-2020 02:11:17 Europe/Berlin] కారాగారము,ఏలికపాము,భయము,ఆతంకము,ఉద్వేగము,చకితము,జలదరము,త్రసనము,త్రాసము,దరదము,దరము,దృబ్దము,పరికంపము,పరితాపము,ప్రోథము,బెగ్గలము,బెగ్గలికము,భీతము,భైరవము,విత్రాసము,విధురము,సంకోచము,సంత్రాసము,సంబాధము,సాధ్వసము,సహనము,సహనము,శాంతము,సాపేక్షత్వము,ఆనందము,ఆనందము,సంతసము,ముగింపు
+[07-Dec-2020 02:11:17 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:11:17 Europe/Berlin] భయము,కారాగారము
+[07-Dec-2020 02:12:13 Europe/Berlin] The input word is : చెరసాల
+[07-Dec-2020 02:12:13 Europe/Berlin] It contains 4 characters
+[07-Dec-2020 02:12:13 Europe/Berlin]  This is the trimmed collection for చె
+[07-Dec-2020 02:12:13 Europe/Berlin] చెరసాల,చెడ్డవాడు,చెప్పండి
+[07-Dec-2020 02:12:13 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:12:13 Europe/Berlin] చెరసాల
+[07-Dec-2020 02:12:13 Europe/Berlin]  This is the trimmed collection for ర
+[07-Dec-2020 02:12:13 Europe/Berlin] కారాగారము,చెరసాల,జలదరము,దరదము,దరము,భైరవము,విధురము,పరస్పరసంబంధత,రచించు,మరణం
+[07-Dec-2020 02:12:13 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:12:13 Europe/Berlin] చెరసాల,కారాగారము
+[07-Dec-2020 02:12:13 Europe/Berlin]  This is the trimmed collection for సా
+[07-Dec-2020 02:12:13 Europe/Berlin] చెరసాల,సాధ్వసము,సాపేక్షత్వము,సాపేక్షసంబంధత,సాపేక్షదృష్టి
+[07-Dec-2020 02:12:13 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:12:13 Europe/Berlin] చెరసాల,కారాగారము,సాధ్వసము
+[07-Dec-2020 02:12:13 Europe/Berlin]  This is the trimmed collection for ల
+[07-Dec-2020 02:12:13 Europe/Berlin] చెరసాల,కలక,జలదరము,జలదరింపు,తలకు,బెగ్గలము
+[07-Dec-2020 02:12:13 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:12:13 Europe/Berlin] చెరసాల,కారాగారము,సాధ్వసము,కలక
+[07-Dec-2020 02:19:34 Europe/Berlin] The input word is : చెరసాల
+[07-Dec-2020 02:19:35 Europe/Berlin] It contains 4 characters
+[07-Dec-2020 02:19:35 Europe/Berlin]  This is the trimmed collection for చె
+[07-Dec-2020 02:19:35 Europe/Berlin] చెరసాల,చెడ్డవాడు,చెప్పండి
+[07-Dec-2020 02:19:35 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:19:35 Europe/Berlin] చెరసాల
+[07-Dec-2020 02:19:35 Europe/Berlin]  This is the trimmed collection for ర
+[07-Dec-2020 02:19:35 Europe/Berlin] కారాగారము,చెరసాల,జలదరము,దరదము,దరము,భైరవము,విధురము,పరస్పరసంబంధత,రచించు,మరణం
+[07-Dec-2020 02:19:35 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:19:35 Europe/Berlin] చెరసాల,కారాగారము
+[07-Dec-2020 02:19:35 Europe/Berlin]  This is the trimmed collection for సా
+[07-Dec-2020 02:19:35 Europe/Berlin] చెరసాల,సాధ్వసము,సాపేక్షత్వము,సాపేక్షసంబంధత,సాపేక్షదృష్టి
+[07-Dec-2020 02:19:35 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:19:35 Europe/Berlin] చెరసాల,కారాగారము,సాధ్వసము
+[07-Dec-2020 02:19:35 Europe/Berlin]  This is the trimmed collection for ల
+[07-Dec-2020 02:19:35 Europe/Berlin] చెరసాల,కలక,జలదరము,జలదరింపు,తలకు,బెగ్గలము
+[07-Dec-2020 02:19:35 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:19:35 Europe/Berlin] చెరసాల,కారాగారము,సాధ్వసము,కలక
+[07-Dec-2020 02:22:23 Europe/Berlin] The input word is : చెరసాల
+[07-Dec-2020 02:22:23 Europe/Berlin] It contains 4 characters
+[07-Dec-2020 02:22:23 Europe/Berlin]  This is the trimmed collection for చె
+[07-Dec-2020 02:22:23 Europe/Berlin] చెరసాల,చెడ్డవాడు,చెప్పండి
+[07-Dec-2020 02:22:23 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:22:23 Europe/Berlin] చెరసాల
+[07-Dec-2020 02:22:23 Europe/Berlin]  This is the trimmed collection for ర
+[07-Dec-2020 02:22:23 Europe/Berlin] కారాగారము,చెరసాల,జలదరము,దరదము,దరము,భైరవము,విధురము,పరస్పరసంబంధత,రచించు,మరణం
+[07-Dec-2020 02:22:23 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:22:23 Europe/Berlin] చెరసాల,కారాగారము
+[07-Dec-2020 02:22:23 Europe/Berlin]  This is the trimmed collection for సా
+[07-Dec-2020 02:22:23 Europe/Berlin] చెరసాల,సాధ్వసము,సాపేక్షత్వము,సాపేక్షసంబంధత,సాపేక్షదృష్టి
+[07-Dec-2020 02:22:23 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:22:23 Europe/Berlin] చెరసాల,కారాగారము,సాధ్వసము
+[07-Dec-2020 02:22:23 Europe/Berlin]  This is the trimmed collection for ల
+[07-Dec-2020 02:22:23 Europe/Berlin] చెరసాల,కలక,జలదరము,జలదరింపు,తలకు,బెగ్గలము
+[07-Dec-2020 02:22:23 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:22:23 Europe/Berlin] చెరసాల,కారాగారము,సాధ్వసము,కలక
+[07-Dec-2020 02:23:25 Europe/Berlin] The input word is : linda
+[07-Dec-2020 02:23:25 Europe/Berlin] It contains 5 characters
+[07-Dec-2020 02:23:25 Europe/Berlin]  This is the trimmed collection for l
+[07-Dec-2020 02:23:25 Europe/Berlin] light,daylight,trial,old,play,diligent,gridlock,battle,delighted,long,whelp,tactile,tangible,touchable
+[07-Dec-2020 02:23:25 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:23:25 Europe/Berlin] light
+[07-Dec-2020 02:23:25 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 02:23:25 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 02:23:25 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:23:25 Europe/Berlin] light,enigma
+[07-Dec-2020 02:23:25 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 02:23:25 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 02:23:25 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:23:25 Europe/Berlin] light,enigma,shining
+[07-Dec-2020 02:23:25 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 02:23:25 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 02:23:25 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:23:25 Europe/Berlin] light,enigma,shining,daylight
+[07-Dec-2020 02:23:25 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 02:23:25 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 02:23:25 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:23:25 Europe/Berlin] light,enigma,shining,daylight,trial
+[07-Dec-2020 02:24:35 Europe/Berlin] The input word is : linda
+[07-Dec-2020 02:24:35 Europe/Berlin] It contains 5 characters
+[07-Dec-2020 02:24:35 Europe/Berlin]  This is the trimmed collection for l
+[07-Dec-2020 02:24:35 Europe/Berlin] light,daylight,trial,old,play,diligent,gridlock,battle,delighted,long,whelp,tactile,tangible,touchable
+[07-Dec-2020 02:24:35 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:24:35 Europe/Berlin] light
+[07-Dec-2020 02:24:35 Europe/Berlin]  This is the trimmed collection for i
+[07-Dec-2020 02:24:35 Europe/Berlin] enigma,light,shining,daylight,trial,write,archiac,movie,office,diligent,industrious,assiduous,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,gridlock,crisis,striving,delighted,parturition,birth,desire,offspring,tactile,tangible
+[07-Dec-2020 02:24:35 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:24:35 Europe/Berlin] light,enigma
+[07-Dec-2020 02:24:35 Europe/Berlin]  This is the trimmed collection for n
+[07-Dec-2020 02:24:35 Europe/Berlin] enigma,shining,sun,popcorn,num,num1,diligent,industrious,conscientious,hard-working,important,prominent,eminent,outstanding,distinguished,striving,carnage,parturition,parentage,nascence,yearn,long,offspring,young,tangible
+[07-Dec-2020 02:24:35 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:24:35 Europe/Berlin] light,enigma,shining
+[07-Dec-2020 02:24:35 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 02:24:35 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 02:24:35 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:24:35 Europe/Berlin] light,enigma,shining,daylight
+[07-Dec-2020 02:24:35 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 02:24:35 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 02:24:35 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:24:35 Europe/Berlin] light,enigma,shining,daylight,trial
+[07-Dec-2020 02:25:11 Europe/Berlin] The input word is : boy
+[07-Dec-2020 02:25:11 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 02:25:11 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 02:25:11 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 02:25:11 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:11 Europe/Berlin] battle
+[07-Dec-2020 02:25:11 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 02:25:11 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 02:25:11 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:11 Europe/Berlin] battle,compose
+[07-Dec-2020 02:25:11 Europe/Berlin]  This is the trimmed collection for y
+[07-Dec-2020 02:25:11 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[07-Dec-2020 02:25:11 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:11 Europe/Berlin] battle,compose,mystery
+[07-Dec-2020 02:25:22 Europe/Berlin] The input word is : boy
+[07-Dec-2020 02:25:22 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 02:25:22 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 02:25:22 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 02:25:22 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:22 Europe/Berlin] battle
+[07-Dec-2020 02:25:22 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 02:25:22 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 02:25:22 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:22 Europe/Berlin] battle,compose
+[07-Dec-2020 02:25:22 Europe/Berlin]  This is the trimmed collection for y
+[07-Dec-2020 02:25:22 Europe/Berlin] mystery,daylight,play,happy,joy,yearn,young,baby
+[07-Dec-2020 02:25:22 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:22 Europe/Berlin] battle,compose,mystery
+[07-Dec-2020 02:25:43 Europe/Berlin] The input word is : course
+[07-Dec-2020 02:25:43 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 02:25:43 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 02:25:43 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 02:25:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:43 Europe/Berlin] compose
+[07-Dec-2020 02:25:43 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 02:25:43 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 02:25:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:43 Europe/Berlin] compose,old
+[07-Dec-2020 02:25:43 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 02:25:43 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 02:25:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:43 Europe/Berlin] compose,old,sun
+[07-Dec-2020 02:25:43 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 02:25:43 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 02:25:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:43 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 02:25:43 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 02:25:43 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 02:25:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:43 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 02:25:43 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 02:25:43 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 02:25:43 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:25:43 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 02:27:33 Europe/Berlin] The input word is : భీతి
+[07-Dec-2020 02:27:33 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 02:27:33 Europe/Berlin]  This is the trimmed collection for భీ
+[07-Dec-2020 02:27:33 Europe/Berlin] భీతము,భీతి,భీష
+[07-Dec-2020 02:27:33 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:27:33 Europe/Berlin] భీతము
+[07-Dec-2020 02:27:33 Europe/Berlin]  This is the trimmed collection for తి
+[07-Dec-2020 02:27:33 Europe/Berlin] భీతి,పురోగతి
+[07-Dec-2020 02:27:33 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:27:33 Europe/Berlin] భీతము,భీతి
+[07-Dec-2020 02:29:30 Europe/Berlin] The input word is : భీతి
+[07-Dec-2020 02:29:30 Europe/Berlin] It contains 2 characters
+[07-Dec-2020 02:29:30 Europe/Berlin]  This is the trimmed collection for భీ
+[07-Dec-2020 02:29:30 Europe/Berlin] భీతము,భీతి,భీష
+[07-Dec-2020 02:29:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:29:30 Europe/Berlin] భీతము
+[07-Dec-2020 02:29:30 Europe/Berlin]  This is the trimmed collection for తి
+[07-Dec-2020 02:29:30 Europe/Berlin] భీతి,పురోగతి
+[07-Dec-2020 02:29:30 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:29:30 Europe/Berlin] భీతము,భీతి
+[07-Dec-2020 02:29:59 Europe/Berlin] The input word is : dab
+[07-Dec-2020 02:29:59 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 02:29:59 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 02:29:59 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 02:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:29:59 Europe/Berlin] daylight
+[07-Dec-2020 02:29:59 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 02:29:59 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 02:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:29:59 Europe/Berlin] daylight,enigma
+[07-Dec-2020 02:29:59 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 02:29:59 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 02:29:59 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:29:59 Europe/Berlin] daylight,enigma,battle
+[07-Dec-2020 02:30:23 Europe/Berlin] The input word is : dab
+[07-Dec-2020 02:30:23 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 02:30:23 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 02:30:23 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 02:30:23 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:30:23 Europe/Berlin] daylight
+[07-Dec-2020 02:30:23 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 02:30:23 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 02:30:23 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:30:23 Europe/Berlin] daylight,enigma
+[07-Dec-2020 02:30:23 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 02:30:23 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 02:30:23 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:30:23 Europe/Berlin] daylight,enigma,battle
+[07-Dec-2020 02:31:24 Europe/Berlin] The input word is : dab
+[07-Dec-2020 02:31:24 Europe/Berlin] It contains 3 characters
+[07-Dec-2020 02:31:24 Europe/Berlin]  This is the trimmed collection for d
+[07-Dec-2020 02:31:24 Europe/Berlin] daylight,old,diligent,industrious,assiduous,hard-working,outstanding,distinguished,gridlock,delighted,desire
+[07-Dec-2020 02:31:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:31:24 Europe/Berlin] daylight
+[07-Dec-2020 02:31:24 Europe/Berlin]  This is the trimmed collection for a
+[07-Dec-2020 02:31:24 Europe/Berlin] enigma,daylight,trial,archiac,papa,father,game,play,assiduous,hard-working,important,outstanding,battle,carnage,happy,parturition,parentage,nascence,crave,yearn,baby,tactile,tangible,touchable
+[07-Dec-2020 02:31:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:31:24 Europe/Berlin] daylight,enigma
+[07-Dec-2020 02:31:24 Europe/Berlin]  This is the trimmed collection for b
+[07-Dec-2020 02:31:24 Europe/Berlin] battle,birth,baby,tangible,touchable
+[07-Dec-2020 02:31:24 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:31:24 Europe/Berlin] daylight,enigma,battle
+[07-Dec-2020 02:31:28 Europe/Berlin] The input word is : course
+[07-Dec-2020 02:31:28 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 02:31:28 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 02:31:28 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 02:31:28 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:31:28 Europe/Berlin] compose
+[07-Dec-2020 02:31:28 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 02:31:28 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 02:31:28 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:31:28 Europe/Berlin] compose,old
+[07-Dec-2020 02:31:28 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 02:31:28 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 02:31:28 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:31:28 Europe/Berlin] compose,old,sun
+[07-Dec-2020 02:31:28 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 02:31:28 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 02:31:28 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:31:28 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 02:31:28 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 02:31:28 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 02:31:28 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:31:28 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 02:31:28 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 02:31:28 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 02:31:28 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 02:31:28 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 03:29:31 Europe/Berlin] The input word is : course
+[07-Dec-2020 03:29:31 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 03:29:31 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 03:29:31 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 03:29:31 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:29:31 Europe/Berlin] compose
+[07-Dec-2020 03:29:31 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 03:29:31 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 03:29:31 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:29:31 Europe/Berlin] compose,old
+[07-Dec-2020 03:29:31 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 03:29:31 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 03:29:31 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:29:31 Europe/Berlin] compose,old,sun
+[07-Dec-2020 03:29:31 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 03:29:31 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 03:29:31 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:29:31 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 03:29:31 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 03:29:31 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 03:29:31 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:29:31 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 03:29:31 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 03:29:31 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 03:29:31 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:29:31 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 03:31:03 Europe/Berlin] The input word is : course
+[07-Dec-2020 03:31:03 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 03:31:03 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 03:31:03 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 03:31:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:03 Europe/Berlin] compose
+[07-Dec-2020 03:31:03 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 03:31:03 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 03:31:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:03 Europe/Berlin] compose,old
+[07-Dec-2020 03:31:03 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 03:31:03 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 03:31:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:03 Europe/Berlin] compose,old,sun
+[07-Dec-2020 03:31:03 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 03:31:03 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 03:31:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:03 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 03:31:03 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 03:31:03 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 03:31:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:03 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 03:31:03 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 03:31:03 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 03:31:03 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:03 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 03:31:45 Europe/Berlin] The input word is : course
+[07-Dec-2020 03:31:45 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 03:31:45 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 03:31:45 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 03:31:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:45 Europe/Berlin] compose
+[07-Dec-2020 03:31:45 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 03:31:45 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 03:31:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:45 Europe/Berlin] compose,old
+[07-Dec-2020 03:31:45 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 03:31:45 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 03:31:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:45 Europe/Berlin] compose,old,sun
+[07-Dec-2020 03:31:45 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 03:31:45 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 03:31:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:45 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 03:31:45 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 03:31:45 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 03:31:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:45 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 03:31:45 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 03:31:45 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 03:31:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:31:45 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 03:32:18 Europe/Berlin] The input word is : course
+[07-Dec-2020 03:32:18 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 03:32:18 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 03:32:18 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 03:32:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:32:18 Europe/Berlin] compose
+[07-Dec-2020 03:32:18 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 03:32:18 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 03:32:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:32:18 Europe/Berlin] compose,old
+[07-Dec-2020 03:32:18 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 03:32:18 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 03:32:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:32:18 Europe/Berlin] compose,old,sun
+[07-Dec-2020 03:32:18 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 03:32:18 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 03:32:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:32:18 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 03:32:18 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 03:32:18 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 03:32:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:32:18 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 03:32:18 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 03:32:18 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 03:32:18 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:32:18 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 03:40:45 Europe/Berlin] The input word is : course
+[07-Dec-2020 03:40:45 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 03:40:45 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 03:40:45 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 03:40:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:40:45 Europe/Berlin] compose
+[07-Dec-2020 03:40:45 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 03:40:45 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 03:40:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:40:45 Europe/Berlin] compose,old
+[07-Dec-2020 03:40:45 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 03:40:45 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 03:40:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:40:45 Europe/Berlin] compose,old,sun
+[07-Dec-2020 03:40:45 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 03:40:45 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 03:40:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:40:45 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 03:40:45 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 03:40:45 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 03:40:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:40:45 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 03:40:45 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 03:40:45 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 03:40:45 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:40:45 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[07-Dec-2020 03:49:51 Europe/Berlin] The input word is : course
+[07-Dec-2020 03:49:51 Europe/Berlin] It contains 6 characters
+[07-Dec-2020 03:49:51 Europe/Berlin]  This is the trimmed collection for c
+[07-Dec-2020 03:49:51 Europe/Berlin] compose,archiac,popcorn,office,conscientious,gridlock,crisis,carnage,nascence,crave,tactile,touchable
+[07-Dec-2020 03:49:51 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:49:51 Europe/Berlin] compose
+[07-Dec-2020 03:49:51 Europe/Berlin]  This is the trimmed collection for o
+[07-Dec-2020 03:49:51 Europe/Berlin] compose,old,movie,popcorn,office,post,industrious,assiduous,conscientious,hard-working,important,prominent,outstanding,gridlock,joy,parturition,long,offspring,young,touchable
+[07-Dec-2020 03:49:51 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:49:51 Europe/Berlin] compose,old
+[07-Dec-2020 03:49:51 Europe/Berlin]  This is the trimmed collection for u
+[07-Dec-2020 03:49:51 Europe/Berlin] sun,num,num1,industrious,assiduous,conscientious,outstanding,distinguished,parturition,young,touchable
+[07-Dec-2020 03:49:51 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:49:51 Europe/Berlin] compose,old,sun
+[07-Dec-2020 03:49:51 Europe/Berlin]  This is the trimmed collection for r
+[07-Dec-2020 03:49:51 Europe/Berlin] mystery,trial,write,archiac,father,popcorn,industrious,hard-working,important,prominent,gridlock,crisis,striving,carnage,parturition,parentage,birth,crave,desire,yearn,offspring
+[07-Dec-2020 03:49:51 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:49:51 Europe/Berlin] compose,old,sun,mystery
+[07-Dec-2020 03:49:51 Europe/Berlin]  This is the trimmed collection for s
+[07-Dec-2020 03:49:51 Europe/Berlin] mystery,shining,sun,test,compose,post,industrious,assiduous,conscientious,outstanding,distinguished,crisis,striving,nascence,desire,offspring
+[07-Dec-2020 03:49:51 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:49:51 Europe/Berlin] compose,old,sun,mystery,shining
+[07-Dec-2020 03:49:51 Europe/Berlin]  This is the trimmed collection for e
+[07-Dec-2020 03:49:51 Europe/Berlin] enigma,mystery,test,write,compose,father,movie,office,game,diligent,conscientious,prominent,eminent,distinguished,battle,carnage,delighted,parentage,nascence,crave,desire,yearn,whelp,tactile,tangible,touchable
+[07-Dec-2020 03:49:51 Europe/Berlin] The words selected for each character are: 
+[07-Dec-2020 03:49:51 Europe/Berlin] compose,old,sun,mystery,shining,enigma
+[11-Dec-2020 03:15:54 Europe/Berlin] PHP Notice:  Undefined variable: word in C:\xampp\htdocs\synonyms\puzzle3.php on line 54
+[11-Dec-2020 03:15:54 Europe/Berlin] The input word is : 
+[11-Dec-2020 03:15:54 Europe/Berlin] PHP Notice:  Undefined variable: word in C:\xampp\htdocs\synonyms\puzzle3.php on line 56
+[11-Dec-2020 03:15:54 Europe/Berlin] PHP Notice:  Undefined variable: word in C:\xampp\htdocs\synonyms\puzzle3.php on line 57
+[11-Dec-2020 03:15:54 Europe/Berlin] PHP Notice:  Undefined variable: word in C:\xampp\htdocs\synonyms\puzzle3.php on line 61
+[11-Dec-2020 03:15:54 Europe/Berlin] It contains 0 characters
+[11-Dec-2020 03:16:16 Europe/Berlin] PHP Notice:  Undefined variable: word in C:\xampp\htdocs\synonyms\puzzle3.php on line 54
+[11-Dec-2020 03:16:16 Europe/Berlin] The input word is : 
+[11-Dec-2020 03:16:16 Europe/Berlin] PHP Notice:  Undefined variable: word in C:\xampp\htdocs\synonyms\puzzle3.php on line 56
+[11-Dec-2020 03:16:16 Europe/Berlin] PHP Notice:  Undefined variable: word in C:\xampp\htdocs\synonyms\puzzle3.php on line 57
+[11-Dec-2020 03:16:16 Europe/Berlin] PHP Notice:  Undefined variable: word in C:\xampp\htdocs\synonyms\puzzle3.php on line 61
+[11-Dec-2020 03:16:16 Europe/Berlin] It contains 0 characters
