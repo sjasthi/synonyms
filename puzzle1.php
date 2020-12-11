@@ -179,7 +179,7 @@ if(isset($_POST['puzzleWord']))
                 while($stmt->fetch()){
                     array_push($usedWords, $masterWordSynonyms);
                     //echo $masterWordSynonyms. "<br>";
-                 }
+                }
 
                 $tempSelectedWordchars = getWordChars($tempselectedWord);
                 $pos = array_search($char, $tempSelectedWordchars) + 1;
