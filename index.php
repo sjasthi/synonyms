@@ -79,7 +79,7 @@ table.center {
                             <div class="form-group">
 								<label for="comment">Enter A Word</label>
 								
-                                <input type="text" name="title" class="form-control" rows="2" id="comment" style="margin:0%" placeholder="మీ పేరు టైప్ చేసి Generate బటన్ నొక్కండి."></input>
+                                <input type="text" name="puzzleWord" class="form-control" rows="2" id="comment" style="margin:0%" placeholder="మీ పేరు టైప్ చేసి Generate బటన్ నొక్కండి."></input>
 
                                 <div style="margin-top: 10px">
                                     <button onclick="eraseText()" type="button" class="btn btn-default" id="clrbutton">Clear</button>

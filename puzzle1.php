@@ -47,9 +47,9 @@ ini_set("error_log", "synonyms_errors.log");
 
 
 
-if (isset($_POST['puzzleWord']))
+if (isset($_GET['puzzleWord']))
 //$word = htmlspecialchars($_POST['puzzleWord']);
-    $word = validate_input($_POST['puzzleWord']);
+    $word = validate_input($_GET['puzzleWord']);
 
 error_log("The input word is : " . $word);
 
@@ -96,7 +96,7 @@ foreach ($wordCharacters as $char) {
 
     
     error_log(" This is the trimmed collection for ". $char);
-    error_log(implode($arrayWord, ","));
+    //error_log(implode($arrayWord, ","));
 
 
     // Keep on visiting the our db word collection until we identify a unique word
@@ -114,15 +114,143 @@ foreach ($wordCharacters as $char) {
    {
       // now you add the visitd_word to the used word
       array_push($usedWords, $tempselectedWord);
-   } else
-   {
-       // this is an error because we don't have enough words in the database
-       // then we show just the letter as-is
-       // TODO: WOrry about the special condition later on
-   }
+   } else {
+    // else, the tempselected word above has no master word so, a new
+    // random tempselectedWord most be chosen.
+    
+    $query = "SELECT SynonymWord FROM synonyms WHERE SynonymWord LIKE '%$char%'";
+    
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+    $stmt->store_result();
+    //$numOfRows = $stmt->num_rows;
+    $stmt->bind_result($wordsWithChar);
+    $arrayWord = array();
+    
+    //echo "Words containing the letter ", $char, " in our database are:" ."<br>";
+    
+    
+    while ($stmt->fetch()) {
+        
+        echo " This are the words with the char", $wordsWithChar . "<br>";
+        $db_word_chars = getWordChars($wordsWithChar);
+        if (in_array($char, $db_word_chars)) {
+            array_push($arrayWord, $wordsWithChar);
+            
+            //echo $wordsWithChar. "<br>";
+        }
+        
+    }
+    echo " This is the trimmed collection";
+    var_dump($arrayWord);
+    $stmt->close();
+    
+    // echo "Out of these, the word randomly selected is: ";
+    
+    $arrayWordLen = count($arrayWord);
+    
+    
+    // $tempselectedWord = null;
+    while (true) {
+        if ($arrayWordLen < 1) {
+            break;
+        } elseif ($arrayWordLen > 1) {
+            $random = rand(0, $arrayWordLen - 1);
+        } elseif ($arrayWordLen === 1) {
+            $random = 0;
+        }
+        try {
+            $tempWord = $arrayWord[$random];
+            if (!in_array($tempWord, $usedWords, true)) {
+                $tempselectedWord = $arrayWord[$random];
+                //unset($arrayWord[$random]);
+                break;
+            } else {
+                $arrayWordLen--;
+                array_splice($arrayWord, $random, 1);
+            }
+        }
+        catch (Exception $e) {
+            // try again
+            $arrayWordLen--;
+        }
+        // array_push($usedWords, $tempselectedWord);
+    }
+    
+    
+    // $random = array_rand($arrayWord);
+    // $temp = $arrayWord[$random];
+    // if(!in_array($usedWords, $temp)){
+    //     $tempselectedWord = $temp;
+    // }
+    
+    // gettin the clueID for the new tempselected word
+    
+    $clueIDQuery = "SELECT ClueID FROM synonyms WHERE SynonymWord Like '$tempselectedWord'";
+    $stmt        = $db->prepare($clueIDQuery);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($clueID);
+    $stmt->fetch();
+    $stmt->close();
+    
+    $masterWordQuerySet = "SELECT SynonymWord FROM synonyms WHERE ClueID = $clueID";
+    $stmt               = $db->prepare($masterWordQuerySet);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($masterWordSynon);
+    $stmt->fetch();
+    while ($stmt->fetch()) {
+        array_push($usedWords, $masterWordSynon);
+        //echo $masterWordSynon. "<br>";
+    }
+    
+    $tempSelectedWordchars = getWordChars($tempselectedWord);
+    $pos                   = array_search($char, $tempSelectedWordchars) + 1;
+    $len                   = count($tempSelectedWordchars);
+    $newpos                = $pos - 1;
+    
+    $stmt->close();
+    
+    
+    $masterWordQuery = "SELECT SynonymWord FROM synonyms WHERE SynID = '$clueID' AND ClueID = '$clueID'";
+    $stmt            = $db->prepare($masterWordQuery);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($masterWord);
+    $stmt->fetch();
+    
+    array_push($usedWords, $masterWord);
+    echo $masterWord;
+    
+    $htmlTable .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
+    $htmlTableResult .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
+    
+    $htmlTable .= "<td align='center' style='vertical-align: middle;'>" . $masterWord  . "</td>";
+    $htmlTable .= "<td style='vertical-align: middle;'>";
+    
+    $htmlTableResult .= "<td align='center' style='vertical-align: middle;'>" . $masterWord . "</td>";
+    $htmlTableResult .= "<td style='vertical-align: middle;'>";
+    
+    $flag = false;
+    for ($j = 0; $j < $len; $j++) {
+        $htmlTableResult .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' . $tempSelectedWordchars[$j] . '" style="display:inline" readonly/>';
+        if (($j === $newpos) && !$flag) {
+            $htmlTable .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' . $tempSelectedWordchars[$j] . '" style="display:inline" readonly/>';
+            $flag = true;
+        } else {
+            $htmlTable .= '<input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline"/>';
+            
+            //$htmlTableResult .= '<input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline"/>';
+        }
+    }
+    $htmlTable .= '</td>';
+    $htmlTableResult .= '</td>';
+    
+}
 
    error_log("The words selected for each character are: ");
-   error_log(implode($usedWords, ","));
+   //error_log(implode($usedWords, ","));
 
     
     // Get the ClueID (which is the iD of the master word) for the selected word
@@ -153,7 +281,7 @@ foreach ($wordCharacters as $char) {
     $clue_word_found = false;
     foreach($clue_word_collection_for_selected_word as $visited_clue_word)
     {
-        if (!in_array($final_clue_words, $visited_clue_word, true)) {
+        if (!in_array($visited_clue_word, $final_clue_words, true)) {
             $clue_word_found = true;
             $temp_selected_clue_word = $visited_clue_word;
             break;
@@ -184,9 +312,9 @@ foreach ($wordCharacters as $char) {
         $htmlTableResult .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
         
         //master word represents the synonym in the table
-        $htmlTable .= "<td align='center' style='vertical-align: middle;'>" . $masterWord . "</td>";
+        //$htmlTable .= "<td align='center' style='vertical-align: middle;'>" . $masterWord . "</td>";
         
-        $htmlTableResult .= "<td align='center' style='vertical-align: middle;'>" . $masterWord . "</td>";
+        //$htmlTableResult .= "<td align='center' style='vertical-align: middle;'>" . $masterWord . "</td>";
         
         /**
          * Now, printing out the the letter to be revealed in the word 
@@ -209,147 +337,14 @@ foreach ($wordCharacters as $char) {
             }
         }
         $htmlTable .= '</td>';
-        $htmlTableResult .= '</td>';
+        $htmlTableResult .= '</td>';}
         
         
-    } else {
-        // else, the tempselected word above has no master word so, a new
-        // random tempselectedWord most be chosen.
-        
-        $query = "SELECT SynonymWord FROM synonyms WHERE SynonymWord LIKE '%$char%'";
-        
-        $stmt = $db->prepare($query);
-        $stmt->execute();
-        $stmt->store_result();
-        //$numOfRows = $stmt->num_rows;
-        $stmt->bind_result($wordsWithChar);
-        $arrayWord = array();
-        
-        //echo "Words containing the letter ", $char, " in our database are:" ."<br>";
-        
-        
-        while ($stmt->fetch()) {
-            
-            echo " This are the words with the char", $wordsWithChar . "<br>";
-            $db_word_chars = getWordChars($wordsWithChar);
-            if (in_array($char, $db_word_chars)) {
-                array_push($arrayWord, $wordsWithChar);
-                
-                //echo $wordsWithChar. "<br>";
-            }
-            
-        }
-        echo " This is the trimmed collection";
-        var_dump($arrayWord);
-        $stmt->close();
-        
-        // echo "Out of these, the word randomly selected is: ";
-        
-        $arrayWordLen = count($arrayWord);
-        
-        
-        // $tempselectedWord = null;
-        while (true) {
-            if ($arrayWordLen < 1) {
-                break;
-            } elseif ($arrayWordLen > 1) {
-                $random = rand(0, $arrayWordLen - 1);
-            } elseif ($arrayWordLen === 1) {
-                $random = 0;
-            }
-            try {
-                $tempWord = $arrayWord[$random];
-                if (!in_array($tempWord, $usedWords, true)) {
-                    $tempselectedWord = $arrayWord[$random];
-                    //unset($arrayWord[$random]);
-                    break;
-                } else {
-                    $arrayWordLen--;
-                    array_splice($arrayWord, $random, 1);
-                }
-            }
-            catch (Exception $e) {
-                // try again
-                $arrayWordLen--;
-            }
-            // array_push($usedWords, $tempselectedWord);
-        }
-        
-        
-        // $random = array_rand($arrayWord);
-        // $temp = $arrayWord[$random];
-        // if(!in_array($usedWords, $temp)){
-        //     $tempselectedWord = $temp;
-        // }
-        
-        // gettin the clueID for the new tempselected word
-        
-        $clueIDQuery = "SELECT ClueID FROM synonyms WHERE SynonymWord Like '$tempselectedWord'";
-        $stmt        = $db->prepare($clueIDQuery);
-        $stmt->execute();
-        $stmt->store_result();
-        $stmt->bind_result($clueID);
-        $stmt->fetch();
-        $stmt->close();
-        
-        $masterWordQuerySet = "SELECT SynonymWord FROM synonyms WHERE ClueID = $clueID";
-        $stmt               = $db->prepare($masterWordQuerySet);
-        $stmt->execute();
-        $stmt->store_result();
-        $stmt->bind_result($masterWordSynon);
-        $stmt->fetch();
-        while ($stmt->fetch()) {
-            array_push($usedWords, $masterWordSynon);
-            //echo $masterWordSynon. "<br>";
-        }
-        
-        $tempSelectedWordchars = getWordChars($tempselectedWord);
-        $pos                   = array_search($char, $tempSelectedWordchars) + 1;
-        $len                   = count($tempSelectedWordchars);
-        $newpos                = $pos - 1;
-        
-        $stmt->close();
-        
-        
-        $masterWordQuery = "SELECT SynonymWord FROM synonyms WHERE SynID = '$clueID' AND ClueID = '$clueID'";
-        $stmt            = $db->prepare($masterWordQuery);
-        $stmt->execute();
-        $stmt->store_result();
-        $stmt->bind_result($masterWord);
-        $stmt->fetch();
-        
-        //array_push($usedWords, $masterWord);
-        //echo $masterWord;
-        
-        $htmlTable .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
-        $htmlTableResult .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
-        
-        $htmlTable .= "<td align='center' style='vertical-align: middle;'>" . $masterWord . "</td>";
-        $htmlTable .= "<td style='vertical-align: middle;'>";
-        
-        $htmlTableResult .= "<td align='center' style='vertical-align: middle;'>" . $masterWord . "</td>";
-        $htmlTableResult .= "<td style='vertical-align: middle;'>";
-        
-        $flag = false;
-        for ($j = 0; $j < $len; $j++) {
-            $htmlTableResult .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' . $tempSelectedWordchars[$j] . '" style="display:inline" readonly/>';
-            if (($j === $newpos) && !$flag) {
-                $htmlTable .= '<input class="puzzleInput word_char active" type="text" maxLength="7" value="' . $tempSelectedWordchars[$j] . '" style="display:inline" readonly/>';
-                $flag = true;
-            } else {
-                $htmlTable .= '<input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline"/>';
-                
-                //$htmlTableResult .= '<input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline"/>';
-            }
-        }
-        $htmlTable .= '</td>';
-        $htmlTableResult .= '</td>';
-        
-    }
-    
+     
+
     //array_push($usedWords, $masterWord);
     
-} // end of for loop
+ // end of for loop
 
 $htmlTable .= "</div>";
 $htmlTable .= '</tbody></table><img id="success_photo" class="success" src="pic/thumbs_up.png" alt="Success!" style="display:none"></div>';
