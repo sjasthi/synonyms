@@ -308,8 +308,8 @@ foreach ($wordCharacters as $char) {
         // storing value for the clue;
         
         
-        $htmlTable .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
-        $htmlTableResult .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
+        $htmlTable .= "<tr><td align='center' style='vertical-align: middle;'>" . $temp_selected_clue_word . "</td>";
+        $htmlTableResult .= "<tr><td align='center' style='vertical-align: middle;'>" . $temp_selected_clue_word . "</td>";
         
         //master word represents the synonym in the table
         //$htmlTable .= "<td align='center' style='vertical-align: middle;'>" . $masterWord . "</td>";
@@ -338,8 +338,13 @@ foreach ($wordCharacters as $char) {
         }
         $htmlTable .= '</td>';
         $htmlTableResult .= '</td>';}
+<<<<<<< Updated upstream
         
         
+=======
+        
+        
+>>>>>>> Stashed changes
      
 
     //array_push($usedWords, $masterWord);
