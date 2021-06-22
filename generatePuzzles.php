@@ -42,8 +42,8 @@ require('create_a_puzzle.php');
 
 <?php 
 
-if (isset($_POST['puzzle'])) {
-    $input = preg_replace("/\r\n/", ",", validate_input($_POST['puzzle']));
+if (isset($_GET['puzzle'])) {
+    $input = preg_replace("/\r\n/", ",", validate_input($_GET['puzzle']));
     // Verify the input value provided meets our requirements
     if ($input == '') {
       // If input is empty, go back to one_to_many page
@@ -53,6 +53,8 @@ if (isset($_POST['puzzle'])) {
       echo '<script type="text/javascript">alert("You can only enter one word. Please try again"); ';
     } else {
       // Display preferences
+      /** 
+     
       echo '<div id="optionContainer" class="optionDiv" style="display: block;" align="center">';
       echo '<div id="displayPreferences">';
       echo '<lable><b style="font-size: 20px;">Image Display Preference: </b></lable>';
@@ -83,7 +85,7 @@ if (isset($_POST['puzzle'])) {
       echo '<input type="radio" name="radioBtn" id="sizeTen" onclick="changeTableRow(id)" value="10" /><label>&nbsp 10 &nbsp &nbsp</label>';
       echo '</div>';
       echo '</div>';
-
+  */
       //echo '<h3 style="color:green;"><input type="checkbox" name="answer" onclick="toggleAnswer()">Show Answer</h3>';
 
       // Display the puzzles generated for given word
@@ -113,10 +115,15 @@ if (isset($_POST['puzzle'])) {
               array_push($synonym_array, "");
               //array_push($image_array, "");
             }
+
           }
 
           //if ($generate) {
           $counter++;
+          if ($counter == 2) {
+            break;
+          }
+
           $allAnswers .="<h2 style='color: green;'>Puzzle #".$counter."</h2>";
           echo '<h1>Puzzle #' . $counter . '</h1>';
           echo '<table class="table" id="print_table" border="0" style="width: auto">';

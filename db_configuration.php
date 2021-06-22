@@ -1,8 +1,9 @@
 <?php
 DEFINE('DATABASE_HOST', 'localhost');
-DEFINE('DATABASE_DATABASE', 'synonyms_db');
+DEFINE('DATABASE_DATABASE', 'synonyms');
 DEFINE('DATABASE_USER', 'root');
-DEFINE('DATABASE_PASSWORD', '');
+DEFINE('DATABASE_PASSWORD', 'admin');
+
 
 
 //DEFINE('DATABASE_HOST', 'localhost');
