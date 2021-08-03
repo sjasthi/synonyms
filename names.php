@@ -46,9 +46,9 @@
       <font class="font">Name Puzzle (one_to_many)</font>
     </div>
     <div>
-      <form id ="myform" action="generatePuzzles.php" method="GET">
+      <form id ="myform" action="puzzle2.php" method="GET">
         <div class="container">
-        <div class="inputDiv"><input type="textbox" name="puzzle" id="name-textbox"
+        <div class="inputDiv"><input type="textbox" name="puzzleWord" id="name-textbox"
                                          placeholder="Enter a word to generate multiple puzzles"
                                          onclick="this.placeholder = ''"/>
           </div>
