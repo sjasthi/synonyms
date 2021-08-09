@@ -1,22 +1,20 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
--- https://www.phpmyadmin.net/
+-- version 4.2.11
+-- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 22, 2020 at 09:14 PM
--- Server version: 10.3.16-MariaDB
--- PHP Version: 7.3.7
+-- Generation Time: Aug 10, 2021 at 12:25 AM
+-- Server version: 5.6.21
+-- PHP Version: 5.5.19
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 --
 -- Database: `synonyms`
@@ -28,7 +26,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `characters`
 --
 
-CREATE TABLE `characters` (
+CREATE TABLE IF NOT EXISTS `characters` (
   `PuzzleWord` varchar(250) NOT NULL,
   `IndexNumber` int(11) NOT NULL,
   `letter` varchar(50) NOT NULL
@@ -485,7 +483,10 @@ INSERT INTO `characters` (`PuzzleWord`, `IndexNumber`, `letter`) VALUES
 ('సాధ్వసము', 2, 'స'),
 ('సాధ్వసము', 3, 'ము'),
 ('స్తీర్వి', 0, 'స్తీ'),
-('స్తీర్వి', 1, 'ర్వి');
+('స్తీర్వి', 1, 'ర్వి'),
+('ఆనందం', 0, 'ఆ'),
+('ఆనందం', 1, 'నం'),
+('ఆనందం', 2, 'దం');
 
 -- --------------------------------------------------------
 
@@ -493,12 +494,12 @@ INSERT INTO `characters` (`PuzzleWord`, `IndexNumber`, `letter`) VALUES
 -- Table structure for table `puzzle`
 --
 
-CREATE TABLE `puzzle` (
-  `PuzzleID` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `puzzle` (
+`PuzzleID` int(11) NOT NULL,
   `PuzzleWord` varchar(50) NOT NULL,
   `PuzzleSynWords` varchar(200) NOT NULL,
   `IndexesToReveal` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `puzzle`
@@ -524,11 +525,11 @@ INSERT INTO `puzzle` (`PuzzleID`, `PuzzleWord`, `PuzzleSynWords`, `IndexesToReve
 -- Table structure for table `synonyms`
 --
 
-CREATE TABLE `synonyms` (
-  `SynID` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `synonyms` (
+`SynID` int(11) NOT NULL,
   `SynonymWord` varchar(50) NOT NULL,
   `ClueID` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=217 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `synonyms`
@@ -650,7 +651,8 @@ INSERT INTO `synonyms` (`SynID`, `SynonymWord`, `ClueID`) VALUES
 (212, 'సంత్రాసము', 144),
 (213, 'సంబాధము', 144),
 (214, 'సాధ్వసము', 144),
-(215, 'స్తీర్వి', 144);
+(215, 'స్తీర్వి', 144),
+(216, 'ఆనందం', 216);
 
 -- --------------------------------------------------------
 
@@ -658,10 +660,10 @@ INSERT INTO `synonyms` (`SynID`, `SynonymWord`, `ClueID`) VALUES
 -- Table structure for table `user`
 --
 
-CREATE TABLE `user` (
+CREATE TABLE IF NOT EXISTS `user` (
   `userName` varchar(250) NOT NULL,
   `password` varchar(250) NOT NULL,
-  `isAdmin` int(11) NOT NULL DEFAULT 0
+  `isAdmin` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -679,19 +681,19 @@ INSERT INTO `user` (`userName`, `password`, `isAdmin`) VALUES
 -- Indexes for table `puzzle`
 --
 ALTER TABLE `puzzle`
-  ADD PRIMARY KEY (`PuzzleID`);
+ ADD PRIMARY KEY (`PuzzleID`);
 
 --
 -- Indexes for table `synonyms`
 --
 ALTER TABLE `synonyms`
-  ADD PRIMARY KEY (`SynID`);
+ ADD PRIMARY KEY (`SynID`);
 
 --
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
-  ADD PRIMARY KEY (`userName`);
+ ADD PRIMARY KEY (`userName`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -701,15 +703,12 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `puzzle`
 --
 ALTER TABLE `puzzle`
-  MODIFY `PuzzleID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
-
+MODIFY `PuzzleID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=38;
 --
 -- AUTO_INCREMENT for table `synonyms`
 --
 ALTER TABLE `synonyms`
-  MODIFY `SynID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=216;
-COMMIT;
-
+MODIFY `SynID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=217;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
