@@ -36,7 +36,7 @@ global $db;
 
 <?php
 include 'db_configuration.php';
-//include 'puzzleGenerator.php';
+include 'puzzleGenerator.php';
 ?>
 
 <?php
@@ -96,7 +96,7 @@ foreach ($wordCharacters as $char) {
 
     
     error_log(" This is the trimmed collection for ". $char);
-    //error_log(implode($arrayWord, ","));
+    error_log(implode($arrayWord, ","));
 
 
     // Keep on visiting the our db word collection until we identify a unique word
@@ -150,7 +150,7 @@ foreach ($wordCharacters as $char) {
     $arrayWordLen = count($arrayWord);
     
     
-    // $tempselectedWord = null;
+     $tempselectedWord = null;
     while (true) {
         if ($arrayWordLen < 1) {
             break;
@@ -174,15 +174,15 @@ foreach ($wordCharacters as $char) {
             // try again
             $arrayWordLen--;
         }
-        // array_push($usedWords, $tempselectedWord);
+         array_push($usedWords, $tempselectedWord);
     }
     
     
-    // $random = array_rand($arrayWord);
-    // $temp = $arrayWord[$random];
-    // if(!in_array($usedWords, $temp)){
-    //     $tempselectedWord = $temp;
-    // }
+     $random = array_rand($arrayWord);
+     $temp = $arrayWord[$random];
+     if(!in_array($usedWords, $temp)){
+         $tempselectedWord = $temp;
+     }
     
     // gettin the clueID for the new tempselected word
     
@@ -202,7 +202,7 @@ foreach ($wordCharacters as $char) {
     $stmt->fetch();
     while ($stmt->fetch()) {
         array_push($usedWords, $masterWordSynon);
-        //echo $masterWordSynon. "<br>";
+        echo $masterWordSynon. "<br>";
     }
     
     $tempSelectedWordchars = getWordChars($tempselectedWord);
@@ -241,7 +241,7 @@ foreach ($wordCharacters as $char) {
         } else {
             $htmlTable .= '<input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline"/>';
             
-            //$htmlTableResult .= '<input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline"/>';
+            $htmlTableResult .= '<input class="puzzleInput word_char" type="text" maxLength="7" value="" style="display:inline"/>';
         }
     }
     $htmlTable .= '</td>';
@@ -249,8 +249,9 @@ foreach ($wordCharacters as $char) {
     
 }
 
+
    error_log("The words selected for each character are: ");
-   //error_log(implode($usedWords, ","));
+   error_log(implode($usedWords, ","));
 
     
     // Get the ClueID (which is the iD of the master word) for the selected word
@@ -279,14 +280,14 @@ foreach ($wordCharacters as $char) {
 
     // Keep on visiting the our master word collection until we identify a unique final clue word
     $clue_word_found = false;
-    foreach($clue_word_collection_for_selected_word as $visited_clue_word)
-    {
-        if (!in_array($visited_clue_word, $final_clue_words, true)) {
-            $clue_word_found = true;
-            $temp_selected_clue_word = $visited_clue_word;
-            break;
-        };
-   };
+     foreach($clue_word_collection_for_selected_word as $visited_clue_word)
+     {
+         if (!in_array($visited_clue_word, $final_clue_words, true)) {
+             $clue_word_found = true;
+             $temp_selected_clue_word = $visited_clue_word;
+             break;
+         };
+    };
 
    if ($clue_word_found == true)
    {
@@ -308,13 +309,13 @@ foreach ($wordCharacters as $char) {
         // storing value for the clue;
         
         
-        $htmlTable .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
-        $htmlTableResult .= "<tr><td align='center' style='vertical-align: middle;'>" . $pos . '/' . $len . "</td>";
+        $htmlTable .= "<tr><td align='center' style='vertical-align: middle;'>" . $temp_selected_clue_word . "</td>";
+        $htmlTableResult .= "<tr><td align='center' style='vertical-align: middle;'>" . $temp_selected_clue_word . "</td>";
         
         //master word represents the synonym in the table
         //$htmlTable .= "<td align='center' style='vertical-align: middle;'>" . $masterWord . "</td>";
         
-        //$htmlTableResult .= "<td align='center' style='vertical-align: middle;'>" . $masterWord . "</td>";
+       //$htmlTableResult .= "<td align='center' style='vertical-align: middle;'>" . $masterWord . "</td>";
         
         /**
          * Now, printing out the the letter to be revealed in the word 
@@ -367,7 +368,7 @@ function get_randomWord($array_of_words, $usedWords)
     $usedWords        = array();
     $array_of_WordLen = count($array_of_Words);
     while (true) {
-        //echo 'Rows count: ' . $numRows . ' <br>';
+        echo 'Rows count: ' . $numRows . ' <br>';
         if ($array_of_WordLen < 1) {
             break;
         } elseif ($array_of_WordLen > 1) {
@@ -375,7 +376,7 @@ function get_randomWord($array_of_words, $usedWords)
         } elseif ($array_of_WordLen === 1) {
             $random = 0;
         }
-        //echo $random;
+        echo $random;
         try {
             $tempWord = $array_of_Words[$random];
             if (!in_array($tempWord, $usedWords, true)) {
@@ -425,6 +426,29 @@ function main_buttons($button_name)
 
 
 ?>
+
+
+
+
+<?php
+
+    if(isset($_POST['result'])){
+        echo $htmlTableResult;
+
+    }
+?>
+
+
+<form  method="post">
+    <button class='main-buttons' input type="submit" name="result" value="HTML"> HTML </button>
+
+</form>
+<button class='main-buttons' onclick="window.location.href='index.php';">Return Home</button>
+
+</div>
+</br>
+</br>
+
 
 <!---button class='main-buttons' onclick="submitSolution()">Submit Solution</button>
     <button class='main-buttons' onclick="showSolution()">Show Solution</button>

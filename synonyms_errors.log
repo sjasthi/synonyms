@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [14-Jun-2021 01:48:50 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 54
 [14-Jun-2021 01:48:50 Europe/Berlin] The input word is : 
 [14-Jun-2021 01:48:50 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 56
@@ -271,3 +272,159 @@ Stack trace:
 [14-Jun-2021 03:37:45 Europe/Berlin] The words selected for each character are: 
 [14-Jun-2021 03:37:45 Europe/Berlin]  This is the trimmed collection for h
 [14-Jun-2021 03:37:45 Europe/Berlin] The words selected for each character are: 
+=======
+[15-Jun-2021 03:49:52 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 54
+[15-Jun-2021 03:49:52 Europe/Berlin] The input word is : 
+[15-Jun-2021 03:49:52 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 56
+[15-Jun-2021 03:49:52 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 57
+[15-Jun-2021 03:49:52 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 61
+[15-Jun-2021 03:49:52 Europe/Berlin] It contains 0 characters
+[15-Jun-2021 03:51:40 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 54
+[15-Jun-2021 03:51:40 Europe/Berlin] The input word is : 
+[15-Jun-2021 03:51:40 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 56
+[15-Jun-2021 03:51:40 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 57
+[15-Jun-2021 03:51:40 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 61
+[15-Jun-2021 03:51:40 Europe/Berlin] It contains 0 characters
+[15-Jun-2021 03:51:43 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 54
+[15-Jun-2021 03:51:43 Europe/Berlin] The input word is : 
+[15-Jun-2021 03:51:43 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 56
+[15-Jun-2021 03:51:43 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 57
+[15-Jun-2021 03:51:43 Europe/Berlin] PHP Warning:  Undefined variable $word in C:\xampp\htdocs\synonyms\puzzle1.php on line 61
+[15-Jun-2021 03:51:43 Europe/Berlin] It contains 0 characters
+[15-Jun-2021 03:51:48 Europe/Berlin] The input word is : fish
+[15-Jun-2021 03:51:48 Europe/Berlin] It contains 4 characters
+[15-Jun-2021 03:51:48 Europe/Berlin]  This is the trimmed collection for f
+[15-Jun-2021 03:51:48 Europe/Berlin] The words selected for each character are: 
+[15-Jun-2021 03:51:48 Europe/Berlin]  This is the trimmed collection for i
+[15-Jun-2021 03:51:48 Europe/Berlin] The words selected for each character are: 
+[15-Jun-2021 03:51:49 Europe/Berlin]  This is the trimmed collection for s
+[15-Jun-2021 03:51:49 Europe/Berlin] The words selected for each character are: 
+[15-Jun-2021 03:51:49 Europe/Berlin]  This is the trimmed collection for h
+[15-Jun-2021 03:51:49 Europe/Berlin] The words selected for each character are: 
+[16-Jun-2021 01:06:48 Europe/Berlin] The input word is : fish
+[16-Jun-2021 01:06:48 Europe/Berlin] It contains 4 characters
+[16-Jun-2021 01:06:48 Europe/Berlin]  This is the trimmed collection for f
+[16-Jun-2021 01:06:48 Europe/Berlin] The words selected for each character are: 
+[16-Jun-2021 01:06:48 Europe/Berlin]  This is the trimmed collection for i
+[16-Jun-2021 01:06:48 Europe/Berlin] The words selected for each character are: 
+[16-Jun-2021 01:06:48 Europe/Berlin]  This is the trimmed collection for s
+[16-Jun-2021 01:06:48 Europe/Berlin] The words selected for each character are: 
+[16-Jun-2021 01:06:48 Europe/Berlin]  This is the trimmed collection for h
+[16-Jun-2021 01:06:48 Europe/Berlin] The words selected for each character are: 
+[16-Jun-2021 01:09:19 Europe/Berlin] The input word is : fish
+[16-Jun-2021 01:09:19 Europe/Berlin] It contains 4 characters
+[16-Jun-2021 01:09:19 Europe/Berlin]  This is the trimmed collection for f
+[16-Jun-2021 01:09:19 Europe/Berlin] The words selected for each character are: 
+[16-Jun-2021 01:09:19 Europe/Berlin]  This is the trimmed collection for i
+[16-Jun-2021 01:09:19 Europe/Berlin] The words selected for each character are: 
+[16-Jun-2021 01:09:19 Europe/Berlin]  This is the trimmed collection for s
+[16-Jun-2021 01:09:19 Europe/Berlin] The words selected for each character are: 
+[16-Jun-2021 01:09:19 Europe/Berlin]  This is the trimmed collection for h
+[16-Jun-2021 01:09:19 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:05 Europe/Berlin] The input word is : fish
+[18-Jun-2021 07:52:05 Europe/Berlin] It contains 4 characters
+[18-Jun-2021 07:52:05 Europe/Berlin]  This is the trimmed collection for f
+[18-Jun-2021 07:52:05 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:05 Europe/Berlin]  This is the trimmed collection for i
+[18-Jun-2021 07:52:05 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:05 Europe/Berlin]  This is the trimmed collection for s
+[18-Jun-2021 07:52:05 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:05 Europe/Berlin]  This is the trimmed collection for h
+[18-Jun-2021 07:52:05 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:30 Europe/Berlin] The input word is : fish
+[18-Jun-2021 07:52:30 Europe/Berlin] It contains 4 characters
+[18-Jun-2021 07:52:30 Europe/Berlin]  This is the trimmed collection for f
+[18-Jun-2021 07:52:30 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:30 Europe/Berlin]  This is the trimmed collection for i
+[18-Jun-2021 07:52:30 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:30 Europe/Berlin]  This is the trimmed collection for s
+[18-Jun-2021 07:52:30 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:30 Europe/Berlin]  This is the trimmed collection for h
+[18-Jun-2021 07:52:30 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:40 Europe/Berlin] The input word is : fish
+[18-Jun-2021 07:52:40 Europe/Berlin] It contains 4 characters
+[18-Jun-2021 07:52:40 Europe/Berlin]  This is the trimmed collection for f
+[18-Jun-2021 07:52:40 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:40 Europe/Berlin]  This is the trimmed collection for i
+[18-Jun-2021 07:52:40 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:40 Europe/Berlin]  This is the trimmed collection for s
+[18-Jun-2021 07:52:40 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:52:40 Europe/Berlin]  This is the trimmed collection for h
+[18-Jun-2021 07:52:40 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:53:41 Europe/Berlin] The input word is : fish
+[18-Jun-2021 07:53:42 Europe/Berlin] It contains 4 characters
+[18-Jun-2021 07:53:42 Europe/Berlin]  This is the trimmed collection for f
+[18-Jun-2021 07:53:42 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:53:42 Europe/Berlin]  This is the trimmed collection for i
+[18-Jun-2021 07:53:42 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:53:42 Europe/Berlin]  This is the trimmed collection for s
+[18-Jun-2021 07:53:42 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:53:42 Europe/Berlin]  This is the trimmed collection for h
+[18-Jun-2021 07:53:42 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:54:58 Europe/Berlin] The input word is : fish
+[18-Jun-2021 07:54:58 Europe/Berlin] It contains 4 characters
+[18-Jun-2021 07:54:58 Europe/Berlin]  This is the trimmed collection for f
+[18-Jun-2021 07:54:59 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:54:59 Europe/Berlin]  This is the trimmed collection for i
+[18-Jun-2021 07:54:59 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:54:59 Europe/Berlin]  This is the trimmed collection for s
+[18-Jun-2021 07:54:59 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:54:59 Europe/Berlin]  This is the trimmed collection for h
+[18-Jun-2021 07:54:59 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:55:16 Europe/Berlin] The input word is : fish
+[18-Jun-2021 07:55:16 Europe/Berlin] It contains 4 characters
+[18-Jun-2021 07:55:16 Europe/Berlin]  This is the trimmed collection for f
+[18-Jun-2021 07:55:16 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:55:16 Europe/Berlin]  This is the trimmed collection for i
+[18-Jun-2021 07:55:16 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:55:16 Europe/Berlin]  This is the trimmed collection for s
+[18-Jun-2021 07:55:17 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:55:17 Europe/Berlin]  This is the trimmed collection for h
+[18-Jun-2021 07:55:17 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:56:26 Europe/Berlin] The input word is : fish
+[18-Jun-2021 07:56:27 Europe/Berlin] It contains 4 characters
+[18-Jun-2021 07:56:27 Europe/Berlin]  This is the trimmed collection for f
+[18-Jun-2021 07:56:27 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:56:27 Europe/Berlin]  This is the trimmed collection for i
+[18-Jun-2021 07:56:27 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:56:27 Europe/Berlin]  This is the trimmed collection for s
+[18-Jun-2021 07:56:27 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:56:27 Europe/Berlin]  This is the trimmed collection for h
+[18-Jun-2021 07:56:27 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:59:27 Europe/Berlin] The input word is : fish
+[18-Jun-2021 07:59:27 Europe/Berlin] It contains 4 characters
+[18-Jun-2021 07:59:27 Europe/Berlin]  This is the trimmed collection for f
+[18-Jun-2021 07:59:27 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:59:27 Europe/Berlin] PHP Warning:  Undefined variable $temp_selected_clue_word in C:\xampp\htdocs\synonyms\puzzle1.php on line 311
+[18-Jun-2021 07:59:27 Europe/Berlin] PHP Warning:  Undefined variable $temp_selected_clue_word in C:\xampp\htdocs\synonyms\puzzle1.php on line 312
+[18-Jun-2021 07:59:27 Europe/Berlin]  This is the trimmed collection for i
+[18-Jun-2021 07:59:27 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:59:27 Europe/Berlin] PHP Warning:  Undefined variable $temp_selected_clue_word in C:\xampp\htdocs\synonyms\puzzle1.php on line 311
+[18-Jun-2021 07:59:27 Europe/Berlin] PHP Warning:  Undefined variable $temp_selected_clue_word in C:\xampp\htdocs\synonyms\puzzle1.php on line 312
+[18-Jun-2021 07:59:28 Europe/Berlin]  This is the trimmed collection for s
+[18-Jun-2021 07:59:28 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:59:28 Europe/Berlin] PHP Warning:  Undefined variable $temp_selected_clue_word in C:\xampp\htdocs\synonyms\puzzle1.php on line 311
+[18-Jun-2021 07:59:28 Europe/Berlin] PHP Warning:  Undefined variable $temp_selected_clue_word in C:\xampp\htdocs\synonyms\puzzle1.php on line 312
+[18-Jun-2021 07:59:28 Europe/Berlin]  This is the trimmed collection for h
+[18-Jun-2021 07:59:28 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 07:59:28 Europe/Berlin] PHP Warning:  Undefined variable $temp_selected_clue_word in C:\xampp\htdocs\synonyms\puzzle1.php on line 311
+[18-Jun-2021 07:59:28 Europe/Berlin] PHP Warning:  Undefined variable $temp_selected_clue_word in C:\xampp\htdocs\synonyms\puzzle1.php on line 312
+[18-Jun-2021 08:02:07 Europe/Berlin] The input word is : fish
+[18-Jun-2021 08:02:07 Europe/Berlin] It contains 4 characters
+[18-Jun-2021 08:02:07 Europe/Berlin]  This is the trimmed collection for f
+[18-Jun-2021 08:02:07 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 08:02:07 Europe/Berlin]  This is the trimmed collection for i
+[18-Jun-2021 08:02:07 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 08:02:07 Europe/Berlin]  This is the trimmed collection for s
+[18-Jun-2021 08:02:07 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 08:02:07 Europe/Berlin]  This is the trimmed collection for h
+[18-Jun-2021 08:02:08 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 08:03:27 Europe/Berlin] The input word is : cat
+[18-Jun-2021 08:03:28 Europe/Berlin] It contains 3 characters
+[18-Jun-2021 08:03:28 Europe/Berlin]  This is the trimmed collection for c
+[18-Jun-2021 08:03:28 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 08:03:28 Europe/Berlin]  This is the trimmed collection for a
+[18-Jun-2021 08:03:28 Europe/Berlin] The words selected for each character are: 
+[18-Jun-2021 08:03:28 Europe/Berlin]  This is the trimmed collection for t
+[18-Jun-2021 08:03:28 Europe/Berlin] The words selected for each character are: 
+>>>>>>> Stashed changes
