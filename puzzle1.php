@@ -36,7 +36,7 @@ global $db;
 
 <?php
 include 'db_configuration.php';
-include 'puzzleGenerator.php';
+//include 'puzzleGenerator.php';
 
 ?>
 
